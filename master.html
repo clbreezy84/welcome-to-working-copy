@@ -1,0 +1,1920 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  <link rel="dns-prefetch" href="https://github.githubassets.com">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-QLgu+HpQvHV00FunhsB3ueQCfgM7dkyMXKp1BrwCifVinFow2alu90jbiIbSdyn4/rXsaRo3otCqeYgmRmTCEA==" rel="stylesheet" href="https://github.githubassets.com/assets/frameworks-40b82ef87a50bc7574d05ba786c077b9.css" />
+  <link crossorigin="anonymous" media="all" integrity="sha512-jbMIzLHRNoZiW7drVC2t2DEM6Cw2GhLM7Q/MLAKYj25kjX1oQN5cz2WxxWUzFmzn+I2PQfA/F9VYmTQ0CLSofg==" rel="stylesheet" href="https://github.githubassets.com/assets/site-8db308ccb1d13686625bb76b542dadd8.css" />
+    <link crossorigin="anonymous" media="all" integrity="sha512-OxtPgTcIKsyyYLI+jTJ7L0A+NMSZe0AfjT4rA7UdNAUoJzUu52XVubloIw84UedB1xW2ukcsXUBI3zEb3lLP1w==" rel="stylesheet" href="https://github.githubassets.com/assets/github-3b1b4f8137082accb260b23e8d327b2f.css" />
+    
+    
+    
+    
+
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - rubygems/bundler: Manage your Ruby application&#39;s gem dependencies</title>
+    <meta name="description" content="Manage your Ruby application&#39;s gem dependencies. Contribute to rubygems/bundler development by creating an account on GitHub.">
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+  <meta name="apple-itunes-app" content="app-id=1477376905">
+
+    <meta name="twitter:image:src" content="https://repository-images.githubusercontent.com/488514/ea48e600-7e45-11e9-867e-025edaca4ef7" /><meta name="twitter:site" content="@github" /><meta name="twitter:card" content="summary_large_image" /><meta name="twitter:title" content="rubygems/bundler" /><meta name="twitter:description" content="Manage your Ruby application&#39;s gem dependencies. Contribute to rubygems/bundler development by creating an account on GitHub." />
+    <meta property="og:image" content="https://repository-images.githubusercontent.com/488514/ea48e600-7e45-11e9-867e-025edaca4ef7" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="rubygems/bundler" /><meta property="og:url" content="https://github.com/rubygems/bundler" /><meta property="og:description" content="Manage your Ruby application&#39;s gem dependencies. Contribute to rubygems/bundler development by creating an account on GitHub." />
+
+
+
+  
+
+  <link rel="assets" href="https://github.githubassets.com/">
+  
+
+  <meta name="request-id" content="6B07:7E87:275B475:403BE30:5F67541D" data-pjax-transient="true"/><meta name="html-safe-nonce" content="e32401c48df0bd2570b91880ed3072a3af2997c2" data-pjax-transient="true"/><meta name="visitor-payload" content="eyJyZWZlcnJlciI6IiIsInJlcXVlc3RfaWQiOiI2QjA3OjdFODc6Mjc1QjQ3NTo0MDNCRTMwOjVGNjc1NDFEIiwidmlzaXRvcl9pZCI6IjMzMTAxMzQ2MzM4MTczODY0NTQiLCJyZWdpb25fZWRnZSI6ImlhZCIsInJlZ2lvbl9yZW5kZXIiOiJpYWQifQ==" data-pjax-transient="true"/><meta name="visitor-hmac" content="c9e50f2069d19f4d2458ae0c165f8a434b7a89ccc0076cc526541444d10a6a58" data-pjax-transient="true"/><meta name="cookie-consent-required" content="false" data-pjax-transient="true"/>
+
+    <meta name="hovercard-subject-tag" content="repository:488514" data-pjax-transient>
+
+
+  <meta name="github-keyboard-shortcuts" content="repository,source-code" data-pjax-transient="true" />
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="c1kuD-K2HIVF635lypcsWPoD4kilo5-jA_wBFyT4uMY">
+  <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+  <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+  <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+
+  <meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-ga_id" content="" class="js-octo-ga-id" />
+
+  <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true" />
+
+  
+
+
+
+
+
+    <meta name="google-analytics" content="UA-3769691-2">
+
+
+<meta class="js-ga-set" name="dimension10" content="Responsive" data-pjax-transient>
+
+<meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+
+      <meta name="expected-hostname" content="github.com">
+
+
+    <meta name="enabled-features" content="MARKETPLACE_PENDING_INSTALLATIONS">
+
+  <meta http-equiv="x-pjax-version" content="d8a101655edb71c4820711ad84e887c7bf76ad11e88f7601c160c1a15a6e12eb">
+  
+
+        <link href="https://github.com/rubygems/bundler/commits/master.atom" rel="alternate" title="Recent Commits to bundler:master" type="application/atom+xml">
+
+  <meta name="go-import" content="github.com/rubygems/bundler git https://github.com/rubygems/bundler.git">
+
+  <meta name="octolytics-dimension-user_id" content="208761" /><meta name="octolytics-dimension-user_login" content="rubygems" /><meta name="octolytics-dimension-repository_id" content="488514" /><meta name="octolytics-dimension-repository_nwo" content="rubygems/bundler" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="488514" /><meta name="octolytics-dimension-repository_network_root_nwo" content="rubygems/bundler" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
+
+
+    <link rel="canonical" href="https://github.com/rubygems/bundler" data-pjax-transient>
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://github.githubassets.com/pinned-octocat.svg" color="#000000">
+  <link rel="alternate icon" class="js-site-favicon" type="image/png" href="https://github.githubassets.com/favicons/favicon.png">
+  <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg">
+
+<meta name="theme-color" content="#1e2327">
+
+
+  <link rel="manifest" href="/manifest.json" crossOrigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production page-responsive">
+    
+
+    <div class="position-relative js-header-wrapper ">
+      <a href="#start-of-content" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+      <span class="progress-pjax-loader width-full js-pjax-loader-bar Progress position-fixed">
+    <span style="background-color: #79b8ff;width: 0%;" class="Progress-item progress-pjax-loader-bar "></span>
+</span>      
+      
+
+
+
+          <header class="Header-old header-logged-out js-details-container Details position-relative f4 py-2" role="banner">
+  <div class="container-xl d-lg-flex flex-items-center p-responsive">
+    <div class="d-flex flex-justify-between flex-items-center">
+        <a class="mr-4" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+          <svg height="32" class="octicon octicon-mark-github text-white" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+        </a>
+
+          <div class="d-lg-none css-truncate css-truncate-target width-fit p-2">
+            
+
+          </div>
+
+        <div class="d-flex flex-items-center">
+              <a href="/join?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&amp;source=header-repo"
+                class="d-inline-block d-lg-none f5 text-white no-underline border border-gray-dark rounded-2 px-2 py-1 mr-3 mr-sm-5"
+                data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/rubygems/bundler/tree/master&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="d5438e82e41480740fe36d033fe74e141e079fa8152996fa5a0ae59d88e9328e"
+                data-ga-click="Sign up, click to sign up for account, ref_page:/&lt;user-name&gt;/&lt;repo-name&gt;;ref_cta:Sign up;ref_loc:header logged out">
+                Sign&nbsp;up
+              </a>
+
+          <button class="btn-link d-lg-none mt-1 js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+            <svg height="24" class="octicon octicon-three-bars text-white" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M1 2.75A.75.75 0 011.75 2h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 2.75zm0 5A.75.75 0 011.75 7h12.5a.75.75 0 110 1.5H1.75A.75.75 0 011 7.75zM1.75 12a.75.75 0 100 1.5h12.5a.75.75 0 100-1.5H1.75z"></path></svg>
+          </button>
+        </div>
+    </div>
+
+    <div class="HeaderMenu HeaderMenu--logged-out position-fixed top-0 right-0 bottom-0 height-fit position-lg-relative d-lg-flex flex-justify-between flex-items-center flex-auto">
+      <div class="d-flex d-lg-none flex-justify-end border-bottom bg-gray-light p-3">
+        <button class="btn-link js-details-target" type="button" aria-label="Toggle navigation" aria-expanded="false">
+          <svg height="24" class="octicon octicon-x text-gray" viewBox="0 0 24 24" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M5.72 5.72a.75.75 0 011.06 0L12 10.94l5.22-5.22a.75.75 0 111.06 1.06L13.06 12l5.22 5.22a.75.75 0 11-1.06 1.06L12 13.06l-5.22 5.22a.75.75 0 01-1.06-1.06L10.94 12 5.72 6.78a.75.75 0 010-1.06z"></path></svg>
+        </button>
+      </div>
+
+        <nav class="mt-0 px-3 px-lg-0 mb-5 mb-lg-0" aria-label="Global">
+          <ul class="d-lg-flex list-style-none">
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Why GitHub?
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <a href="/features" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Features">Features <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
+                    <ul class="list-style-none f5 pb-3">
+                      <li class="edge-item-fix"><a href="/features/code-review/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code review">Code review</a></li>
+                      <li class="edge-item-fix"><a href="/features/project-management/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Project management">Project management</a></li>
+                      <li class="edge-item-fix"><a href="/features/integrations" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Integrations">Integrations</a></li>
+                      <li class="edge-item-fix"><a href="/features/actions" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Actions">Actions</a></li>
+                      <li class="edge-item-fix"><a href="/features/packages" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Packages">Packages</a></li>
+                      <li class="edge-item-fix"><a href="/features/security" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Security">Security</a></li>
+                      <li class="edge-item-fix"><a href="/features#team-management" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Team management">Team management</a></li>
+                      <li class="edge-item-fix"><a href="/features#hosting" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Code hosting">Hosting</a></li>
+                      <li class="edge-item-fix hide-xl"><a href="/mobile" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Mobile">Mobile</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
+                      <li class="edge-item-fix"><a href="/customer-stories" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Customer stories">Customer stories <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="/security" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Security">Security <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+              <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
+                <a href="/team" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Team">Team</a>
+              </li>
+              <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
+                <a href="/enterprise" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Enterprise">Enterprise</a>
+              </li>
+
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Explore
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                      <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-0 mt-0 pb-4 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/explore" class="py-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Explore">Explore GitHub <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2 border-lg-top pt-lg-3">Learn &amp; contribute</h4>
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/topics" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Topics">Topics</a></li>
+                        <li class="edge-item-fix"><a href="/collections" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Collections">Collections</a></li>
+                      <li class="edge-item-fix"><a href="/trending" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Trending">Trending</a></li>
+                      <li class="edge-item-fix"><a href="https://lab.github.com/" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Learning lab">Learning Lab</a></li>
+                      <li class="edge-item-fix"><a href="https://opensource.guide" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Open source guides">Open source guides</a></li>
+                    </ul>
+
+                    <h4 class="text-gray-light text-normal text-mono f5 mb-2 border-lg-top pt-lg-3">Connect with others</h4>
+                    <ul class="list-style-none mb-0">
+                      <li class="edge-item-fix"><a href="https://github.com/events" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Events">Events</a></li>
+                      <li class="edge-item-fix"><a href="https://github.community" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Community forum">Community forum</a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Education">GitHub Education</a></li>
+                      <li class="edge-item-fix"><a href="https://stars.github.com" class="py-2 pb-0 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to GitHub Stars Program">GitHub Stars program</a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+
+              <li class="border-bottom border-lg-bottom-0 mr-0 mr-lg-3">
+                <a href="/marketplace" class="HeaderMenu-link no-underline py-3 d-block d-lg-inline-block" data-ga-click="(Logged out) Header, go to Marketplace">Marketplace</a>
+              </li>
+
+              <li class="d-block d-lg-flex flex-lg-nowrap flex-lg-items-center border-bottom border-lg-bottom-0 mr-0 mr-lg-3 edge-item-fix position-relative flex-wrap flex-justify-between d-flex flex-items-center ">
+                <details class="HeaderMenu-details details-overlay details-reset width-full">
+                  <summary class="HeaderMenu-summary HeaderMenu-link px-0 py-3 border-0 no-wrap d-block d-lg-inline-block">
+                    Pricing
+                    <svg x="0px" y="0px" viewBox="0 0 14 8" xml:space="preserve" fill="none" class="icon-chevon-down-mktg position-absolute position-lg-relative">
+                       <path d="M1,1l6.2,6L13,1"></path>
+                    </svg>
+                  </summary>
+
+                  <div class="dropdown-menu flex-auto rounded-1 bg-white px-0 pt-2 pb-4 mt-0 p-lg-4 position-relative position-lg-absolute left-0 left-lg-n4">
+                    <a href="/pricing" class="pb-2 lh-condensed-ultra d-block link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Pricing">Plans <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a>
+
+                    <ul class="list-style-none mb-3">
+                      <li class="edge-item-fix"><a href="/pricing#feature-comparison" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Compare plans">Compare plans</a></li>
+                      <li class="edge-item-fix"><a href="https://enterprise.github.com/contact" class="py-2 lh-condensed-ultra d-block link-gray no-underline f5" data-ga-click="(Logged out) Header, go to Contact Sales">Contact Sales</a></li>
+                    </ul>
+
+                    <ul class="list-style-none mb-0 border-lg-top pt-lg-3">
+                      <li class="edge-item-fix"><a href="/nonprofit" class="py-2 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover" data-ga-click="(Logged out) Header, go to Nonprofits">Nonprofit <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                      <li class="edge-item-fix"><a href="https://education.github.com" class="py-2 pb-0 lh-condensed-ultra d-block no-underline link-gray-dark no-underline h5 Bump-link--hover"  data-ga-click="(Logged out) Header, go to Education">Education <span class="Bump-link-symbol float-right text-normal text-gray-light">&rarr;</span></a></li>
+                    </ul>
+                  </div>
+                </details>
+              </li>
+          </ul>
+        </nav>
+
+      <div class="d-lg-flex flex-items-center px-3 px-lg-0 text-center text-lg-left">
+          <div class="d-lg-flex mb-3 mb-lg-0">
+              <div hidden class="d-none">
+</div>
+<div class="header-search header-search-current js-header-search-current flex-auto js-site-search position-relative flex-self-stretch flex-md-self-auto mr-0 mr-md-3 mb-3 mb-md-0 scoped-search site-scoped-search js-jump-to js-header-search-current-jump-to"
+  role="combobox"
+  aria-owns="jump-to-results"
+  aria-label="Search or jump to"
+  aria-haspopup="listbox"
+  aria-expanded="false"
+>
+  <div class="position-relative">
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" role="search" aria-label="Site" data-scope-type="Repository" data-scope-id="488514" data-scoped-search-url="/rubygems/bundler/search" data-unscoped-search-url="/search" action="/rubygems/bundler/search" accept-charset="UTF-8" method="get">
+      <label class="form-control input-sm header-search-wrapper p-0 js-chromeless-input-container header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center">
+        <input type="text"
+          class="form-control input-sm header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
+          data-hotkey="s,/"
+          name="q"
+          value=""
+          placeholder="Search"
+          data-unscoped-placeholder="Search GitHub"
+          data-scoped-placeholder="Search"
+          autocapitalize="off"
+          aria-autocomplete="list"
+          aria-controls="jump-to-results"
+          aria-label="Search"
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations"
+          spellcheck="false"
+          autocomplete="off"
+          >
+          <input type="hidden" data-csrf="true" class="js-data-jump-to-suggestions-path-csrf" value="71Yxc0nBh+VH5I1Sbh+92QUOxiwQb4jM58W2BX6D6I1lAvKnT4hMNOHvRcJmQCT9w1dWahpy6iABiqqL6rFuyg==" />
+          <input type="hidden" class="js-site-search-type-field" name="type" >
+            <img src="https://github.githubassets.com/images/search-key-slash.svg" alt="" class="mr-2 header-search-key-slash">
+
+            <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+              
+<ul class="d-none js-jump-to-suggestions-template-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-suggestion" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+</ul>
+
+<ul class="d-none js-jump-to-no-results-template-container">
+  <li class="d-flex flex-justify-center flex-items-center f5 d-none js-jump-to-suggestion p-2">
+    <span class="text-gray">No suggested jump to results</span>
+  </li>
+</ul>
+
+<ul id="jump-to-results" role="listbox" class="p-0 m-0 js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-scoped-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+  
+
+<li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item js-jump-to-global-search d-none" role="option">
+  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open p-2" href="">
+    <div class="jump-to-octicon js-jump-to-octicon flex-shrink-0 mr-2 text-center d-none">
+      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M1.75 0A1.75 1.75 0 000 1.75v12.5C0 15.216.784 16 1.75 16h12.5A1.75 1.75 0 0016 14.25V1.75A1.75 1.75 0 0014.25 0H1.75zM1.5 1.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25v12.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25V1.75zM11.75 3a.75.75 0 00-.75.75v7.5a.75.75 0 001.5 0v-7.5a.75.75 0 00-.75-.75zm-8.25.75a.75.75 0 011.5 0v5.5a.75.75 0 01-1.5 0v-5.5zM8 3a.75.75 0 00-.75.75v3.5a.75.75 0 001.5 0v-3.5A.75.75 0 008 3z"></path></svg>
+      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path></svg>
+    </div>
+
+    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="" width="28" height="28">
+
+    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+    </div>
+
+    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+        In this repository
+      </span>
+      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+        All GitHub
+      </span>
+      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+
+    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+      Jump to
+      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+    </div>
+  </a>
+</li>
+
+
+</ul>
+
+            </div>
+      </label>
+</form>  </div>
+</div>
+
+          </div>
+
+        <a href="/login?return_to=%2Frubygems%2Fbundler%2Ftree%2Fmaster"
+          class="HeaderMenu-link no-underline mr-3"
+          data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/rubygems/bundler/tree/master&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="4f380671286d074a97f9c5d7ac8654b695bb3debe330f40ea912dfe425339c31"
+          data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">
+          Sign&nbsp;in
+        </a>
+            <a href="/join?ref_cta=Sign+up&amp;ref_loc=header+logged+out&amp;ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E&amp;source=header-repo&amp;source_repo=rubygems%2Fbundler"
+              class="HeaderMenu-link d-inline-block no-underline border border-gray-dark rounded-1 px-2 py-1"
+              data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;site header menu&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/rubygems/bundler/tree/master&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="4f380671286d074a97f9c5d7ac8654b695bb3debe330f40ea912dfe425339c31"
+              data-ga-click="Sign up, click to sign up for account, ref_page:/&lt;user-name&gt;/&lt;repo-name&gt;;ref_cta:Sign up;ref_loc:header logged out">
+              Sign&nbsp;up
+            </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+    </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+
+
+
+    <div id="js-flash-container">
+
+
+  <template class="js-flash-template">
+    <div class="flash flash-full  {{ className }}">
+  <div class=" px-2" >
+    <button class="flash-close js-flash-close" type="button" aria-label="Dismiss this message">
+      <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
+    </button>
+    
+      <div>{{ message }}</div>
+
+  </div>
+</div>
+  </template>
+</div>
+
+
+  
+
+  <include-fragment class="js-notification-shelf-include-fragment" data-base-src="https://github.com/notifications/beta/shelf"></include-fragment>
+
+
+
+  <div
+    class="application-main "
+    data-commit-hovercards-enabled
+    data-discussion-hovercards-enabled
+    data-issue-and-pr-hovercards-enabled
+  >
+        <div itemscope itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <main id="js-repo-pjax-container" data-pjax-container >
+      
+
+    
+
+
+    
+
+
+
+      <div class="flash flash-warn flash-full border-top-0 text-center text-bold py-2">
+    This repository has been archived by the owner. It is now read-only.
+  </div>
+
+
+
+
+  
+
+
+  <div class="bg-gray-light pt-3 hide-full-screen mb-5">
+
+      <div class="d-flex mb-3 px-3 px-md-4 px-lg-5">
+
+        <div class="flex-auto min-width-0 width-fit mr-3">
+            <h1 class=" d-flex flex-wrap flex-items-center break-word f3 text-normal">
+    <svg class="octicon octicon-repo text-gray" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 2.5A2.5 2.5 0 014.5 0h8.75a.75.75 0 01.75.75v12.5a.75.75 0 01-.75.75h-2.5a.75.75 0 110-1.5h1.75v-2h-8a1 1 0 00-.714 1.7.75.75 0 01-1.072 1.05A2.495 2.495 0 012 11.5v-9zm10.5-1V9h-8c-.356 0-.694.074-1 .208V2.5a1 1 0 011-1h8zM5 12.25v3.25a.25.25 0 00.4.2l1.45-1.087a.25.25 0 01.3 0L8.6 15.7a.25.25 0 00.4-.2v-3.25a.25.25 0 00-.25-.25h-3.5a.25.25 0 00-.25.25z"></path></svg>
+  <span class="author ml-2 flex-self-stretch" itemprop="author">
+    <a class="url fn" rel="author" data-hovercard-type="organization" data-hovercard-url="/orgs/rubygems/hovercard" href="/rubygems">rubygems</a>
+  </span>
+  <span class="mx-1 flex-self-stretch">/</span>
+  <strong itemprop="name" class="mr-2 flex-self-stretch">
+    <a data-pjax="#js-repo-pjax-container" href="/rubygems/bundler">bundler</a>
+  </strong>
+  <span class="Label Label--outline v-align-middle ">Archived</span>
+</h1>
+
+
+        </div>
+
+          <ul class="pagehead-actions flex-shrink-0 d-none d-md-inline" style="padding: 2px 0;">
+    <li>
+      <details id="funding-links-modal" class="details-reset details-overlay details-overlay-dark d-inline-block float-left" >
+        <summary id="sponsor-button-repo" class="btn btn-sm"
+          title="Sponsor rubygems/bundler"
+          data-ga-click="Repository, show sponsor modal, action:files#disambiguate; text:Sponsor"
+          >
+          <svg class="octicon octicon-heart text-pink" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4.25 2.5c-1.336 0-2.75 1.164-2.75 3 0 2.15 1.58 4.144 3.365 5.682A20.565 20.565 0 008 13.393a20.561 20.561 0 003.135-2.211C12.92 9.644 14.5 7.65 14.5 5.5c0-1.836-1.414-3-2.75-3-1.373 0-2.609.986-3.029 2.456a.75.75 0 01-1.442 0C6.859 3.486 5.623 2.5 4.25 2.5zM8 14.25l-.345.666-.002-.001-.006-.003-.018-.01a7.643 7.643 0 01-.31-.17 22.075 22.075 0 01-3.434-2.414C2.045 10.731 0 8.35 0 5.5 0 2.836 2.086 1 4.25 1 5.797 1 7.153 1.802 8 3.02 8.847 1.802 10.203 1 11.75 1 13.914 1 16 2.836 16 5.5c0 2.85-2.045 5.231-3.885 6.818a22.08 22.08 0 01-3.744 2.584l-.018.01-.006.003h-.002L8 14.25zm0 0l.345.666a.752.752 0 01-.69 0L8 14.25z"></path></svg>
+          Sponsor
+        </summary>
+        <details-dialog
+          class="anim-fade-in fast Box Box--overlay d-flex flex-column"
+            src="/rubygems/bundler/funding_links?fragment=1"
+            preload
+          >
+          <div class="Box-header">
+            <button class="Box-btn-octicon btn-octicon float-right" type="button" aria-label="Close dialog" data-close-dialog>
+              <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
+            </button>
+            <h3 class="Box-title">
+              Sponsor rubygems/bundler
+            </h3>
+          </div>
+          <div class="overflow-auto">
+            <include-fragment
+              >
+              <div class="octocat-spinner my-3" aria-label="Loading..."></div>
+            </include-fragment>
+          </div>
+        </details-dialog>
+      </details>
+    </li>
+
+  <li>
+          <a class="tooltipped tooltipped-s btn btn-sm btn-with-count" aria-label="You must be signed in to watch a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/rubygems/bundler/tree/master&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="201af65eb2c1745f208ef63214c9a5a1783681443ea8a6da6b90cd56fea8f692" href="/login?return_to=%2Frubygems%2Fbundler">
+    <svg height="16" class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path></svg>
+    Watch
+</a>    <a class="social-count" href="/rubygems/bundler/watchers"
+       aria-label="166 users are watching this repository">
+      166
+    </a>
+
+  </li>
+
+  <li>
+          <a class="btn btn-sm btn-with-count  tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:488514,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/rubygems/bundler/tree/master&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="5246fa6ab25fd42ec6cdf03edd08dfe6e4de4af2a10381689630b77d0fc88094" href="/login?return_to=%2Frubygems%2Fbundler">
+      <svg vertical_align="text_bottom" height="16" class="octicon octicon-star v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
+      Star
+</a>
+    <a class="social-count js-social-count" href="/rubygems/bundler/stargazers"
+      aria-label="4813 users starred this repository">
+      4.8k
+    </a>
+
+  </li>
+
+  <li>
+        <a class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to fork a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;repo details fork button&quot;,&quot;repository_id&quot;:488514,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/rubygems/bundler/tree/master&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="291d6db99b369be4af48d02bf57d35b67fe1a900b16440442049ec7f17b0887d" href="/login?return_to=%2Frubygems%2Fbundler">
+          <svg class="octicon octicon-repo-forked" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path></svg>
+          Fork
+</a>
+      <a href="/rubygems/bundler/network/members" class="social-count"
+         aria-label="2133 users forked this repository">
+        2.1k
+      </a>
+  </li>
+</ul>
+
+      </div>
+          <div class="d-block d-md-none mb-2 px-3 px-md-4 px-lg-5">
+      <p class="f4 mb-3">
+        Manage your Ruby application's gem dependencies
+      </p>
+      <div class="mb-2 d-flex flex-items-center">
+        <svg mr="2" classes="flex-shrink-0" height="16" class="octicon octicon-link flex-shrink-0 mr-2" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg>
+        <span class="flex-auto min-width-0 css-truncate css-truncate-target width-fit">
+          <a title="https://bundler.io" role="link" target="_blank" class="text-bold" rel="noopener noreferrer" href="https://bundler.io">bundler.io</a>
+        </span>
+      </div>
+      <div class="mb-2">
+        <a href="/rubygems/bundler/blob/master/LICENSE.md" class="muted-link">
+          <svg mr="1" height="16" class="octicon octicon-law mr-1" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.75.75a.75.75 0 00-1.5 0V2h-.984c-.305 0-.604.08-.869.23l-1.288.737A.25.25 0 013.984 3H1.75a.75.75 0 000 1.5h.428L.066 9.192a.75.75 0 00.154.838l.53-.53-.53.53v.001l.002.002.002.002.006.006.016.015.045.04a3.514 3.514 0 00.686.45A4.492 4.492 0 003 11c.88 0 1.556-.22 2.023-.454a3.515 3.515 0 00.686-.45l.045-.04.016-.015.006-.006.002-.002.001-.002L5.25 9.5l.53.53a.75.75 0 00.154-.838L3.822 4.5h.162c.305 0 .604-.08.869-.23l1.289-.737a.25.25 0 01.124-.033h.984V13h-2.5a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-2.5V3.5h.984a.25.25 0 01.124.033l1.29.736c.264.152.563.231.868.231h.162l-2.112 4.692a.75.75 0 00.154.838l.53-.53-.53.53v.001l.002.002.002.002.006.006.016.015.045.04a3.517 3.517 0 00.686.45A4.492 4.492 0 0013 11c.88 0 1.556-.22 2.023-.454a3.512 3.512 0 00.686-.45l.045-.04.01-.01.006-.005.006-.006.002-.002.001-.002-.529-.531.53.53a.75.75 0 00.154-.838L13.823 4.5h.427a.75.75 0 000-1.5h-2.234a.25.25 0 01-.124-.033l-1.29-.736A1.75 1.75 0 009.735 2H8.75V.75zM1.695 9.227c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L3 6.327l-1.305 2.9zm10 0c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L13 6.327l-1.305 2.9z"></path></svg>
+            MIT License
+        </a>
+      </div>
+    <div class="mb-3">
+      <a class="link-gray no-underline mr-3" href="/rubygems/bundler/stargazers">
+        <svg mr="1" height="16" class="octicon octicon-star mr-1" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
+        <span class="text-bold">4.8k</span>
+        stars
+</a>      <a class="link-gray no-underline" href="/rubygems/bundler/network/members">
+        <svg mr="1" height="16" class="octicon octicon-repo-forked mr-1" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M5 3.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm0 2.122a2.25 2.25 0 10-1.5 0v.878A2.25 2.25 0 005.75 8.5h1.5v2.128a2.251 2.251 0 101.5 0V8.5h1.5a2.25 2.25 0 002.25-2.25v-.878a2.25 2.25 0 10-1.5 0v.878a.75.75 0 01-.75.75h-4.5A.75.75 0 015 6.25v-.878zm3.75 7.378a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm3-8.75a.75.75 0 100-1.5.75.75 0 000 1.5z"></path></svg>
+        <span class="text-bold">2.1k</span>
+        forks
+</a>    </div>
+    <div class="d-flex">
+      <div class="flex-1 mr-2">
+            <a class="btn btn-sm  btn-block tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;star button&quot;,&quot;repository_id&quot;:488514,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/rubygems/bundler/tree/master&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="5246fa6ab25fd42ec6cdf03edd08dfe6e4de4af2a10381689630b77d0fc88094" href="/login?return_to=%2Frubygems%2Fbundler">
+      <svg vertical_align="text_bottom" height="16" class="octicon octicon-star v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25zm0 2.445L6.615 5.5a.75.75 0 01-.564.41l-3.097.45 2.24 2.184a.75.75 0 01.216.664l-.528 3.084 2.769-1.456a.75.75 0 01.698 0l2.77 1.456-.53-3.084a.75.75 0 01.216-.664l2.24-2.183-3.096-.45a.75.75 0 01-.564-.41L8 2.694v.001z"></path></svg>
+      Star
+</a>
+
+      </div>
+      <div class="flex-1">
+          <a class="tooltipped tooltipped-s btn btn-sm btn-block" aria-label="You must be signed in to watch a repository" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;notification subscription menu watch&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;LOG_IN&quot;,&quot;originating_url&quot;:&quot;https://github.com/rubygems/bundler/tree/master&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="201af65eb2c1745f208ef63214c9a5a1783681443ea8a6da6b90cd56fea8f692" href="/login?return_to=%2Frubygems%2Fbundler">
+    <svg height="16" class="octicon octicon-eye" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.679 7.932c.412-.621 1.242-1.75 2.366-2.717C5.175 4.242 6.527 3.5 8 3.5c1.473 0 2.824.742 3.955 1.715 1.124.967 1.954 2.096 2.366 2.717a.119.119 0 010 .136c-.412.621-1.242 1.75-2.366 2.717C10.825 11.758 9.473 12.5 8 12.5c-1.473 0-2.824-.742-3.955-1.715C2.92 9.818 2.09 8.69 1.679 8.068a.119.119 0 010-.136zM8 2c-1.981 0-3.67.992-4.933 2.078C1.797 5.169.88 6.423.43 7.1a1.619 1.619 0 000 1.798c.45.678 1.367 1.932 2.637 3.024C4.329 13.008 6.019 14 8 14c1.981 0 3.67-.992 4.933-2.078 1.27-1.091 2.187-2.345 2.637-3.023a1.619 1.619 0 000-1.798c-.45-.678-1.367-1.932-2.637-3.023C11.671 2.992 9.981 2 8 2zm0 8a2 2 0 100-4 2 2 0 000 4z"></path></svg>
+    Watch
+</a>
+      </div>
+    </div>
+  </div>
+
+        
+<nav aria-label="Repository" data-pjax="#js-repo-pjax-container" class="js-repo-nav js-sidenav-container-pjax js-responsive-underlinenav overflow-hidden UnderlineNav px-3 px-md-4 px-lg-5 bg-gray-light">
+  <ul class="UnderlineNav-body list-style-none ">
+          <li class="d-flex">
+        <a class="js-selected-navigation-item selected UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="code-tab" data-hotkey="g c" data-ga-click="Repository, Navigation click, Code tab" aria-current="page" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages repo_deployments /rubygems/bundler" href="/rubygems/bundler">
+              <svg classes="UnderlineNav-octicon" display="none inline" height="16" class="octicon octicon-code UnderlineNav-octicon d-none d-sm-inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M4.72 3.22a.75.75 0 011.06 1.06L2.06 8l3.72 3.72a.75.75 0 11-1.06 1.06L.47 8.53a.75.75 0 010-1.06l4.25-4.25zm6.56 0a.75.75 0 10-1.06 1.06L13.94 8l-3.72 3.72a.75.75 0 101.06 1.06l4.25-4.25a.75.75 0 000-1.06l-4.25-4.25z"></path></svg>
+            <span data-content="Code">Code</span>
+              <span title="Not available" class="Counter "></span>
+</a>      </li>
+      <li class="d-flex">
+        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="issues-tab" data-hotkey="g i" data-ga-click="Repository, Navigation click, Issues tab" data-selected-links="repo_issues repo_labels repo_milestones /rubygems/bundler/issues" href="/rubygems/bundler/issues">
+              <svg classes="UnderlineNav-octicon" display="none inline" height="16" class="octicon octicon-issue-opened UnderlineNav-octicon d-none d-sm-inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zm-.25-6.25a.75.75 0 00-1.5 0v3.5a.75.75 0 001.5 0v-3.5z"></path></svg>
+            <span data-content="Issues">Issues</span>
+              <span title="0" hidden="hidden" class="Counter ">0</span>
+</a>      </li>
+      <li class="d-flex">
+        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="pull-requests-tab" data-hotkey="g p" data-ga-click="Repository, Navigation click, Pull requests tab" data-selected-links="repo_pulls checks /rubygems/bundler/pulls" href="/rubygems/bundler/pulls">
+              <svg classes="UnderlineNav-octicon" display="none inline" height="16" class="octicon octicon-git-pull-request UnderlineNav-octicon d-none d-sm-inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.177 3.073L9.573.677A.25.25 0 0110 .854v4.792a.25.25 0 01-.427.177L7.177 3.427a.25.25 0 010-.354zM3.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122v5.256a2.251 2.251 0 11-1.5 0V5.372A2.25 2.25 0 011.5 3.25zM11 2.5h-1V4h1a1 1 0 011 1v5.628a2.251 2.251 0 101.5 0V5A2.5 2.5 0 0011 2.5zm1 10.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0zM3.75 12a.75.75 0 100 1.5.75.75 0 000-1.5z"></path></svg>
+            <span data-content="Pull requests">Pull requests</span>
+              <span title="22" class="Counter ">22</span>
+</a>      </li>
+      <li class="d-flex">
+        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="actions-tab" data-hotkey="g a" data-ga-click="Repository, Navigation click, Actions tab" data-selected-links="repo_actions /rubygems/bundler/actions" href="/rubygems/bundler/actions">
+              <svg classes="UnderlineNav-octicon" display="none inline" height="16" class="octicon octicon-play UnderlineNav-octicon d-none d-sm-inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 8a6.5 6.5 0 1113 0 6.5 6.5 0 01-13 0zM8 0a8 8 0 100 16A8 8 0 008 0zM6.379 5.227A.25.25 0 006 5.442v5.117a.25.25 0 00.379.214l4.264-2.559a.25.25 0 000-.428L6.379 5.227z"></path></svg>
+            <span data-content="Actions">Actions</span>
+              <span title="Not available" class="Counter "></span>
+</a>      </li>
+      <li class="d-flex">
+        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="security-tab" data-hotkey="g s" data-ga-click="Repository, Navigation click, Security tab" data-selected-links="security overview alerts policy token_scanning code_scanning /rubygems/bundler/security" href="/rubygems/bundler/security">
+              <svg classes="UnderlineNav-octicon" display="none inline" height="16" class="octicon octicon-shield UnderlineNav-octicon d-none d-sm-inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.467.133a1.75 1.75 0 011.066 0l5.25 1.68A1.75 1.75 0 0115 3.48V7c0 1.566-.32 3.182-1.303 4.682-.983 1.498-2.585 2.813-5.032 3.855a1.7 1.7 0 01-1.33 0c-2.447-1.042-4.049-2.357-5.032-3.855C1.32 10.182 1 8.566 1 7V3.48a1.75 1.75 0 011.217-1.667l5.25-1.68zm.61 1.429a.25.25 0 00-.153 0l-5.25 1.68a.25.25 0 00-.174.238V7c0 1.358.275 2.666 1.057 3.86.784 1.194 2.121 2.34 4.366 3.297a.2.2 0 00.154 0c2.245-.956 3.582-2.104 4.366-3.298C13.225 9.666 13.5 8.36 13.5 7V3.48a.25.25 0 00-.174-.237l-5.25-1.68zM9 10.5a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.75a.75.75 0 10-1.5 0v3a.75.75 0 001.5 0v-3z"></path></svg>
+            <span data-content="Security">Security</span>
+              <include-fragment src="/rubygems/bundler/security/overall-count" accept="text/fragment+html"></include-fragment>
+</a>      </li>
+      <li class="d-flex">
+        <a class="js-selected-navigation-item UnderlineNav-item hx_underlinenav-item no-wrap js-responsive-underlinenav-item" data-tab-item="insights-tab" data-ga-click="Repository, Navigation click, Insights tab" data-selected-links="repo_graphs repo_contributors dependency_graph dependabot_updates pulse people /rubygems/bundler/pulse" href="/rubygems/bundler/pulse">
+              <svg classes="UnderlineNav-octicon" display="none inline" height="16" class="octicon octicon-graph UnderlineNav-octicon d-none d-sm-inline" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.5 1.75a.75.75 0 00-1.5 0v12.5c0 .414.336.75.75.75h14.5a.75.75 0 000-1.5H1.5V1.75zm14.28 2.53a.75.75 0 00-1.06-1.06L10 7.94 7.53 5.47a.75.75 0 00-1.06 0L3.22 8.72a.75.75 0 001.06 1.06L7 7.06l2.47 2.47a.75.75 0 001.06 0l5.25-5.25z"></path></svg>
+            <span data-content="Insights">Insights</span>
+              <span title="Not available" class="Counter "></span>
+</a>      </li>
+
+</ul>        <div class="position-absolute right-0 pr-3 pr-md-4 pr-lg-5 js-responsive-underlinenav-overflow" style="visibility:hidden;">
+      <details class="details-overlay details-reset position-relative">
+  <summary role="button">
+    <div class="UnderlineNav-item mr-0 border-0">
+            <svg class="octicon octicon-kebab-horizontal" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M8 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM1.5 9a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm13 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path></svg>
+            <span class="sr-only">More</span>
+          </div>
+</summary>  <div>
+    <details-menu role="menu" class="dropdown-menu dropdown-menu-sw ">
+  
+            <ul>
+                <li data-menu-item="code-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /rubygems/bundler" href="/rubygems/bundler">
+                    Code
+</a>                </li>
+                <li data-menu-item="issues-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /rubygems/bundler/issues" href="/rubygems/bundler/issues">
+                    Issues
+</a>                </li>
+                <li data-menu-item="pull-requests-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /rubygems/bundler/pulls" href="/rubygems/bundler/pulls">
+                    Pull requests
+</a>                </li>
+                <li data-menu-item="actions-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /rubygems/bundler/actions" href="/rubygems/bundler/actions">
+                    Actions
+</a>                </li>
+                <li data-menu-item="security-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /rubygems/bundler/security" href="/rubygems/bundler/security">
+                    Security
+</a>                </li>
+                <li data-menu-item="insights-tab" hidden>
+                  <a role="menuitem" class="js-selected-navigation-item dropdown-item" data-selected-links=" /rubygems/bundler/pulse" href="/rubygems/bundler/pulse">
+                    Insights
+</a>                </li>
+            </ul>
+
+</details-menu>
+</div></details>    </div>
+
+</nav>
+  </div>
+
+<div class="container-xl clearfix new-discussion-timeline  px-3 px-md-4 px-lg-5">
+  <div class="repository-content " >
+
+    
+      
+
+  <div class="d-none d-lg-block mt-6 mr-3 Popover top-0 right-0 box-shadow-medium col-3">
+    
+  </div>
+
+    <signup-prompt class="signup-prompt-bg rounded-1" data-prompt="signup" hidden>
+    <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+      <div class="position-relative">
+        <button
+          type="button"
+          class="position-absolute top-0 right-0 btn-link link-gray"
+          data-action="click:signup-prompt#dismiss"
+          data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss"
+        >
+          Dismiss
+        </button>
+        <h3 class="pt-2">Join GitHub today</h3>
+        <p class="col-6 mx-auto">GitHub is home to over 50 million developers working together to host and review code, manage projects, and build software together.</p>
+        <a class="btn btn-primary" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up" data-hydro-click="{&quot;event_type&quot;:&quot;authentication.click&quot;,&quot;payload&quot;:{&quot;location_in_page&quot;:&quot;files signup prompt&quot;,&quot;repository_id&quot;:null,&quot;auth_type&quot;:&quot;SIGN_UP&quot;,&quot;originating_url&quot;:&quot;https://github.com/rubygems/bundler/tree/master&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="85e62542407a31ba3d969ddcbbc3688d12bbd70c9bcef7bda92574a70b3623e3" href="/join?source=prompt-code&amp;source_repo=rubygems%2Fbundler">Sign up</a>
+      </div>
+    </div>
+  </signup-prompt>
+
+
+
+  <div class="gutter-condensed gutter-lg flex-column flex-md-row d-flex">
+
+  <div class="flex-shrink-0 col-12 col-md-9 mb-4 mb-md-0">
+    
+
+
+
+
+      <div class="file-navigation mb-3 d-flex flex-items-start">
+  
+<div class="position-relative">
+  <details class="details-reset details-overlay mr-0 mb-0 " id="branch-select-menu">
+    <summary class="btn css-truncate"
+            data-hotkey="w"
+            title="Switch branches or tags">
+      <svg text="gray" height="16" class="octicon octicon-git-branch text-gray" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"></path></svg>
+      <span class="css-truncate-target" data-menu-button>master</span>
+      <span class="dropdown-caret"></span>
+    </summary>
+
+    <details-menu class="SelectMenu SelectMenu--hasFilter" src="/rubygems/bundler/refs/master?source_action=disambiguate&amp;source_controller=files" preload>
+      <div class="SelectMenu-modal">
+        <include-fragment class="SelectMenu-loading" aria-label="Menu is loading">
+          <svg class="octicon octicon-octoface anim-pulse" height="32" viewBox="0 0 24 24" version="1.1" width="32" aria-hidden="true"><path d="M7.75 11c-.69 0-1.25.56-1.25 1.25v1.5a1.25 1.25 0 102.5 0v-1.5C9 11.56 8.44 11 7.75 11zm1.27 4.5a.469.469 0 01.48-.5h5a.47.47 0 01.48.5c-.116 1.316-.759 2.5-2.98 2.5s-2.864-1.184-2.98-2.5zm7.23-4.5c-.69 0-1.25.56-1.25 1.25v1.5a1.25 1.25 0 102.5 0v-1.5c0-.69-.56-1.25-1.25-1.25z"></path><path fill-rule="evenodd" d="M21.255 3.82a1.725 1.725 0 00-2.141-1.195c-.557.16-1.406.44-2.264.866-.78.386-1.647.93-2.293 1.677A18.442 18.442 0 0012 5c-.93 0-1.784.059-2.569.17-.645-.74-1.505-1.28-2.28-1.664a13.876 13.876 0 00-2.265-.866 1.725 1.725 0 00-2.141 1.196 23.645 23.645 0 00-.69 3.292c-.125.97-.191 2.07-.066 3.112C1.254 11.882 1 13.734 1 15.527 1 19.915 3.13 23 12 23c8.87 0 11-3.053 11-7.473 0-1.794-.255-3.647-.99-5.29.127-1.046.06-2.15-.066-3.125a23.652 23.652 0 00-.689-3.292zM20.5 14c.5 3.5-1.5 6.5-8.5 6.5s-9-3-8.5-6.5c.583-4 3-6 8.5-6s7.928 2 8.5 6z"></path></svg>
+        </include-fragment>
+      </div>
+    </details-menu>
+  </details>
+
+</div>
+
+
+  <div class="flex-self-center ml-3 flex-self-stretch d-none d-lg-flex flex-items-center lh-condensed-ultra">
+    <a data-pjax href="/rubygems/bundler/branches" class="link-gray-dark no-underline">
+      <svg text="gray" height="16" class="octicon octicon-git-branch text-gray" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.75 2.5a.75.75 0 100 1.5.75.75 0 000-1.5zm-2.25.75a2.25 2.25 0 113 2.122V6A2.5 2.5 0 0110 8.5H6a1 1 0 00-1 1v1.128a2.251 2.251 0 11-1.5 0V5.372a2.25 2.25 0 111.5 0v1.836A2.492 2.492 0 016 7h4a1 1 0 001-1v-.628A2.25 2.25 0 019.5 3.25zM4.25 12a.75.75 0 100 1.5.75.75 0 000-1.5zM3.5 3.25a.75.75 0 111.5 0 .75.75 0 01-1.5 0z"></path></svg>
+      <strong>144</strong>
+      <span class="text-gray-light">branches</span>
+    </a>
+    <a data-pjax href="/rubygems/bundler/tags" class="ml-3 link-gray-dark no-underline">
+      <svg text="gray" height="16" class="octicon octicon-tag text-gray" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"></path></svg>
+      <strong>296</strong>
+      <span class="text-gray-light">tags</span>
+    </a>
+  </div>
+
+  <div class="flex-auto"></div>
+
+  <a class="btn ml-2" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;target&quot;:&quot;FIND_FILE_BUTTON&quot;,&quot;repository_id&quot;:488514,&quot;originating_url&quot;:&quot;https://github.com/rubygems/bundler/tree/master&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="8447d25c2a70b690f0f94c91818cd216d6eb414466462d323bf303ca78480582" data-ga-click="Repository, find file, location:repo overview" data-hotkey="t" data-pjax="true" href="/rubygems/bundler/find/master">
+    Go to file
+</a>
+
+
+
+    <span class="d-none d-md-flex ml-2">
+        
+<get-repo>
+  <details class="position-relative details-overlay details-reset" data-action="toggle:get-repo#onDetailsToggle">
+    <summary class="btn btn-primary" data-hydro-click="{&quot;event_type&quot;:&quot;repository.click&quot;,&quot;payload&quot;:{&quot;repository_id&quot;:488514,&quot;target&quot;:&quot;CLONE_OR_DOWNLOAD_BUTTON&quot;,&quot;originating_url&quot;:&quot;https://github.com/rubygems/bundler/tree/master&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="32d1fb6f87f49a962b330b02acd99eca76e14ddb8124433665fbcb5e50f1e019">
+      <svg class="octicon octicon-download mr-1" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.47 10.78a.75.75 0 001.06 0l3.75-3.75a.75.75 0 00-1.06-1.06L8.75 8.44V1.75a.75.75 0 00-1.5 0v6.69L4.78 5.97a.75.75 0 00-1.06 1.06l3.75 3.75zM3.75 13a.75.75 0 000 1.5h8.5a.75.75 0 000-1.5h-8.5z"></path></svg>
+      Code
+      <span class="dropdown-caret"></span>
+</summary>    <div class="position-relative">
+      <div class="dropdown-menu dropdown-menu-sw p-0" style="top:6px;width:352px;">
+        <div data-target="get-repo.modal">
+          <div class="border-bottom p-3">
+              <div class="get-repo-modal js-toggler-container ">
+    <div class="https-clone-options">
+
+    <h4 class="mb-1">
+      Clone with HTTPS
+      <a class="muted-link" href="https://docs.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+        <svg class="octicon octicon-question" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1.5a6.5 6.5 0 100 13 6.5 6.5 0 000-13zM0 8a8 8 0 1116 0A8 8 0 010 8zm9 3a1 1 0 11-2 0 1 1 0 012 0zM6.92 6.085c.081-.16.19-.299.34-.398.145-.097.371-.187.74-.187.28 0 .553.087.738.225A.613.613 0 019 6.25c0 .177-.04.264-.077.318a.956.956 0 01-.277.245c-.076.051-.158.1-.258.161l-.007.004a7.728 7.728 0 00-.313.195 2.416 2.416 0 00-.692.661.75.75 0 001.248.832.956.956 0 01.276-.245 6.3 6.3 0 01.26-.16l.006-.004c.093-.057.204-.123.313-.195.222-.149.487-.355.692-.662.214-.32.329-.702.329-1.15 0-.76-.36-1.348-.863-1.725A2.76 2.76 0 008 4c-.631 0-1.155.16-1.572.438-.413.276-.68.638-.849.977a.75.75 0 101.342.67z"></path></svg>
+      </a>
+    </h4>
+    <p class="mb-2 f5">
+      Use Git or checkout with SVN using the web URL.
+    </p>
+
+    <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm bg-gray-light" data-autoselect value="https://github.com/rubygems/bundler.git" aria-label="https://github.com/rubygems/bundler.git" readonly>
+  <div class="input-group-button">
+    <clipboard-copy value="https://github.com/rubygems/bundler.git" aria-label="Copy to clipboard" class="btn btn-sm" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;COPY_URL&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:488514,&quot;originating_url&quot;:&quot;https://github.com/rubygems/bundler/tree/master&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="66db23db62e3d0f4cd8e5d9a8cc3a9459104cdabb9bd2eedb2f2bb7b18261ddb"><svg class="octicon octicon-clippy" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M5.75 1a.75.75 0 00-.75.75v3c0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75v-3a.75.75 0 00-.75-.75h-4.5zm.75 3V2.5h3V4h-3zm-2.874-.467a.75.75 0 00-.752-1.298A1.75 1.75 0 002 3.75v9.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 13.25v-9.5a1.75 1.75 0 00-.874-1.515.75.75 0 10-.752 1.298.25.25 0 01.126.217v9.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-9.5a.25.25 0 01.126-.217z"></path></svg></clipboard-copy>
+  </div>
+</div>
+
+  </div>
+
+</div>
+          </div>
+          <ul class="list-style-none">
+            <li data-platforms="windows,mac" class="Box-row Box-row--hover-gray p-0 rounded-0 mt-0 js-remove-unless-platform">
+              <a class="d-flex flex-items-center text-gray-dark text-bold no-underline p-3" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;OPEN_IN_DESKTOP&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:488514,&quot;originating_url&quot;:&quot;https://github.com/rubygems/bundler/tree/master&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="4c2c34985b51233d1515495c96f3582c4df8f0c81d60b6f69a23068a3e7bdb6d" data-action="click:get-repo#showDownloadMessage" href="https://desktop.github.com">
+                <svg class="octicon octicon-desktop-download mr-3" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.75 5V.75a.75.75 0 00-1.5 0V5H5.104a.25.25 0 00-.177.427l2.896 2.896a.25.25 0 00.354 0l2.896-2.896A.25.25 0 0010.896 5H8.75zM1.5 2.75a.25.25 0 01.25-.25h3a.75.75 0 000-1.5h-3A1.75 1.75 0 000 2.75v7.5C0 11.216.784 12 1.75 12h3.727c-.1 1.041-.52 1.872-1.292 2.757A.75.75 0 004.75 16h6.5a.75.75 0 00.565-1.243c-.772-.885-1.193-1.716-1.292-2.757h3.727A1.75 1.75 0 0016 10.25v-7.5A1.75 1.75 0 0014.25 1h-3a.75.75 0 000 1.5h3a.25.25 0 01.25.25v7.5a.25.25 0 01-.25.25H1.75a.25.25 0 01-.25-.25v-7.5zM9.018 12H6.982a5.72 5.72 0 01-.765 2.5h3.566a5.72 5.72 0 01-.765-2.5z"></path></svg>
+                Open with GitHub Desktop
+</a>            </li>
+            <li class="Box-row Box-row--hover-gray p-0">
+              <a class="d-flex flex-items-center text-gray-dark text-bold no-underline p-3" rel="nofollow" data-hydro-click="{&quot;event_type&quot;:&quot;clone_or_download.click&quot;,&quot;payload&quot;:{&quot;feature_clicked&quot;:&quot;DOWNLOAD_ZIP&quot;,&quot;git_repository_type&quot;:&quot;REPOSITORY&quot;,&quot;repository_id&quot;:488514,&quot;originating_url&quot;:&quot;https://github.com/rubygems/bundler/tree/master&quot;,&quot;user_id&quot;:null}}" data-hydro-click-hmac="bb03bfef57d0fe1c0ae754215e5778c7ea8dacc75ef7b0f75189f1417a60f8ce" data-ga-click="Repository, download zip, location:repo overview" data-open-app="link" href="/rubygems/bundler/archive/master.zip">
+                <svg class="octicon octicon-file-zip mr-3" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.5 1.75a.25.25 0 01.25-.25h3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h2.086a.25.25 0 01.177.073l2.914 2.914a.25.25 0 01.073.177v8.586a.25.25 0 01-.25.25h-.5a.75.75 0 000 1.5h.5A1.75 1.75 0 0014 13.25V4.664c0-.464-.184-.909-.513-1.237L10.573.513A1.75 1.75 0 009.336 0H3.75A1.75 1.75 0 002 1.75v11.5c0 .649.353 1.214.874 1.515a.75.75 0 10.752-1.298.25.25 0 01-.126-.217V1.75zM8.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM6 5.25a.75.75 0 01.75-.75h.5a.75.75 0 010 1.5h-.5A.75.75 0 016 5.25zm2 1.5A.75.75 0 018.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 6.75zm-1.25.75a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM8 9.75A.75.75 0 018.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 018 9.75zm-.75.75a1.75 1.75 0 00-1.75 1.75v3c0 .414.336.75.75.75h2.5a.75.75 0 00.75-.75v-3a1.75 1.75 0 00-1.75-1.75h-.5zM7 12.25a.25.25 0 01.25-.25h.5a.25.25 0 01.25.25v2.25H7v-2.25z"></path></svg>
+                Download ZIP
+</a>            </li>
+          </ul>
+        </div>
+
+        <div class="p-3" data-targets="get-repo.platforms" data-platform="mac" hidden>
+          <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="AnimatedEllipsis"></span></h4>
+          <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+          <button type="button" class="btn-link" data-action="click:get-repo#onDetailsToggle">Go back</button>
+        </div>
+
+        <div class="p-3" data-targets="get-repo.platforms" data-platform="windows" hidden>
+          <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="AnimatedEllipsis"></span></h4>
+          <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+          <button type="button" class="btn-link" data-action="click:get-repo#onDetailsToggle">Go back</button>
+        </div>
+
+        <div class="p-3" data-targets="get-repo.platforms" data-platform="xcode" hidden>
+          <h4 class="lh-condensed mb-3">Launching Xcode<span class="AnimatedEllipsis"></span></h4>
+          <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+          <button type="button" class="btn-link" data-action="click:get-repo#onDetailsToggle">Go back</button>
+        </div>
+
+        <div class="p-3" data-targets="get-repo.platforms" data-platform="visual-studio" hidden>
+          <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="AnimatedEllipsis"></span></h4>
+          <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+          <button type="button" class="btn-link" data-action="click:get-repo#onDetailsToggle">Go back</button>
+        </div>
+
+      </div>
+    </div>
+  </details>
+</get-repo>
+
+
+      
+    </span>
+</div>
+
+
+      
+
+<div class="Box mb-3">
+  <div class="Box-header Box-header--blue position-relative">
+    <h2 class="sr-only">Latest commit</h2>
+    <div class="js-details-container Details d-flex rounded-top-1 flex-items-center flex-wrap" data-issue-and-pr-hovercards-enabled>
+      
+  <div class="flex-shrink-0 ml-n1 mr-n1 mt-n1 mb-n1 hx_avatar_stack_commit">
+    
+<div class="AvatarStack flex-self-start ">
+  <div class="AvatarStack-body" aria-label="hsbt">
+        <a class="avatar avatar-user" data-skip-pjax="true" data-hovercard-type="user" data-hovercard-url="/users/hsbt/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" style="width:24px;height:24px;" href="/hsbt">
+          <img height="24" width="24" alt="@hsbt" src="https://avatars1.githubusercontent.com/u/12301?s=60&amp;u=ff463d5b4856759aeb902725ad89b4392442077d&amp;v=4" class=" avatar-user" />
+</a>  </div>
+</div>
+
+  </div>
+  <div class="flex-1 d-flex flex-items-center ml-3 min-width-0">
+    <div class="css-truncate css-truncate-overflow text-gray">
+      
+      <a href="/rubygems/bundler/commits?author=hsbt"
+     class="commit-author user-mention"
+     title="View all commits by hsbt">hsbt</a>
+
+
+  
+
+        <span class="d-none d-sm-inline">
+          <a data-pjax="true" title="Merge pull request #7671 from rubygems/merge-rubygems
+
+Bundler repo was merged in RubyGems repo" class="link-gray-dark" href="/rubygems/bundler/commit/35be6d9a603084f719fec4f4028c18860def07f6">Merge pull request</a> <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="579202907" data-permission-text="Title is private" data-url="https://github.com/rubygems/bundler/issues/7671" data-hovercard-type="pull_request" data-hovercard-url="/rubygems/bundler/pull/7671/hovercard" href="https://github.com/rubygems/bundler/pull/7671">#7671</a> <a data-pjax="true" title="Merge pull request #7671 from rubygems/merge-rubygems
+
+Bundler repo was merged in RubyGems repo" class="link-gray-dark" href="/rubygems/bundler/commit/35be6d9a603084f719fec4f4028c18860def07f6">from rubygems/merge-rubygems</a>
+        </span>
+    </div>
+    <span class="hidden-text-expander ml-2 d-inline-block ">
+      <button type="button" class="hx_bg-black-fade-15 text-gray-dark ellipsis-expander js-details-target" aria-expanded="false">&hellip;</button>
+    </span>
+    <div class="d-flex flex-auto flex-justify-end ml-3 flex-items-baseline">
+        <include-fragment accept="text/fragment+html" src="/rubygems/bundler/commit/35be6d9a603084f719fec4f4028c18860def07f6/rollup?direction=e" class="d-inline"></include-fragment>
+      <a href="/rubygems/bundler/commit/35be6d9a603084f719fec4f4028c18860def07f6" class="f6 link-gray text-mono ml-2 d-none d-lg-inline" data-pjax>35be6d9</a>
+      <a href="/rubygems/bundler/commit/35be6d9a603084f719fec4f4028c18860def07f6" class="link-gray ml-2" data-pjax>
+        <relative-time datetime="2020-03-14T05:13:22Z" class="no-wrap">Mar 14, 2020</relative-time>
+      </a>
+    </div>
+  </div>
+  <div class="pl-0 pl-md-5 flex-order-1 width-full Details-content--hidden">
+      <div class="mt-2">
+        <a data-pjax="true" class="link-gray-dark text-bold" href="/rubygems/bundler/commit/35be6d9a603084f719fec4f4028c18860def07f6">Merge pull request</a> <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="579202907" data-permission-text="Title is private" data-url="https://github.com/rubygems/bundler/issues/7671" data-hovercard-type="pull_request" data-hovercard-url="/rubygems/bundler/pull/7671/hovercard" href="https://github.com/rubygems/bundler/pull/7671">#7671</a> <a data-pjax="true" class="link-gray-dark text-bold" href="/rubygems/bundler/commit/35be6d9a603084f719fec4f4028c18860def07f6">from rubygems/merge-rubygems</a>
+      </div>
+
+      <pre class="mt-2 text-mono text-gray text-small ws-pre-wrap">Bundler repo was merged in RubyGems repo</pre>
+    <div class="d-flex flex-items-center">
+      <span class="text-gray-dark text-mono d-lg-none hx_bg-black-fade-15 px-1 rounded-1 text-small mt-2">35be6d9</span>
+    </div>
+  </div>
+      <div class="flex-shrink-0">
+        <h2 class="sr-only">Git stats</h2>
+        <ul class="list-style-none d-flex">
+          <li class="ml-0 ml-md-3">
+            <a data-pjax href="/rubygems/bundler/commits/master" class="pl-3 pr-3 py-3 p-md-0 mt-n3 mb-n3 mr-n3 m-md-0 link-gray-dark no-underline no-wrap">
+              <svg text="gray" height="16" class="octicon octicon-history text-gray" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M1.643 3.143L.427 1.927A.25.25 0 000 2.104V5.75c0 .138.112.25.25.25h3.646a.25.25 0 00.177-.427L2.715 4.215a6.5 6.5 0 11-1.18 4.458.75.75 0 10-1.493.154 8.001 8.001 0 101.6-5.684zM7.75 4a.75.75 0 01.75.75v2.992l2.028.812a.75.75 0 01-.557 1.392l-2.5-1A.75.75 0 017 8.25v-3.5A.75.75 0 017.75 4z"></path></svg>
+              <span class="d-none d-sm-inline">
+                    <strong>11,835</strong>
+                  <span aria-label="Commits on master" class="text-gray d-none d-lg-inline">commits</span>
+              </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <h2 id="files"  class="sr-only">Files</h2>
+  
+
+
+    <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/rubygems/bundler/tree/35be6d9a603084f719fec4f4028c18860def07f6">Permalink</a>
+
+  <div class="include-fragment-error flash flash-error flash-full py-2">
+  <svg height="16" class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path></svg>
+  
+    Failed to load latest commit information.
+
+</div>  <div class="js-details-container Details">
+    <div role="grid" aria-labelledby="files" class="Details-content--hidden-not-important js-navigation-container js-active-navigation-container d-md-block" data-pjax>
+      <div class="sr-only" role="row">
+        <div role="columnheader">Type</div>
+        <div role="columnheader">Name</div>
+        <div role="columnheader" class="d-none d-md-block">Latest commit message</div>
+        <div role="columnheader">Commit time</div>
+      </div>
+
+        <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item ">
+          <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;">
+              <svg color="blue-3" aria-label="Directory" height="16" class="octicon octicon-file-directory color-blue-3" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path></svg>
+
+          </div>
+
+          <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3">
+            <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open link-gray-dark" title=".github" id="01777e4a9846fea5f3fcc8fe40d44680-3c752102d86d86cb6ad3c106aa7032a00a139142" href="/rubygems/bundler/tree/master/.github">.github</a></span>
+          </div>
+
+          <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3 commit-message">
+              <span class="css-truncate css-truncate-target d-block width-fit">
+                    <a data-pjax="true" title="Fixup 48eec6db9c316257527f364c0de0fa538663a0ff" class="link-gray" href="/rubygems/bundler/commit/f07db0495e95f7f1f4e090d1f77636b702926607">Fixup</a> <a class="commit-link" data-hovercard-type="commit" data-hovercard-url="https://github.com/rubygems/bundler/commit/48eec6db9c316257527f364c0de0fa538663a0ff/hovercard" href="https://github.com/rubygems/bundler/commit/48eec6db9c316257527f364c0de0fa538663a0ff"><tt>48eec6d</tt></a>
+              </span>
+          </div>
+
+          <div role="gridcell" class="text-gray-light text-right" style="width:100px;">
+              <time-ago datetime="2020-03-06T09:57:12Z" class="no-wrap">Mar 6, 2020</time-ago>
+          </div>
+
+        </div>
+        <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item ">
+          <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;">
+              <svg color="blue-3" aria-label="Directory" height="16" class="octicon octicon-file-directory color-blue-3" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path></svg>
+
+          </div>
+
+          <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3">
+            <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open link-gray-dark" title="bin" id="c1111bd512b29e821b120b86446026b8-88945f9a0061dd2c0679cb322802a196631da69a" href="/rubygems/bundler/tree/master/bin">bin</a></span>
+          </div>
+
+          <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3 commit-message">
+              <span class="css-truncate css-truncate-target d-block width-fit">
+                    <a data-pjax="true" title="Replace `with_rubygems` script
+
+Instead, use a better rubygems version manager that makes sure that
+`ENV[&quot;RGV&quot;]` usage is always applied, and its usage is centralized at a
+single place.
+
+This simplifies the rake task organization and makes it much simpler to
+run locally exactly what&#39;s run in CI. For example, since it doesn&#39;t rely
+on the `RGV` being deleted for subsequent subprocesses, it also running
+`bin/rake spec:travis` task locally which previously would lead to
+
+```
+rake aborted!
+
+RubyGems version is required on Travis!
+```
+
+It also reduces duplication making it so that we only need to change the
+`.travis.yml` file when updating tested rubies, and not the `Rakefile`
+as well." class="link-gray" href="/rubygems/bundler/commit/6a7da1cc9a59cd7e1399f28b5398f1223b89c56a">Replace `with_rubygems` script</a>
+              </span>
+          </div>
+
+          <div role="gridcell" class="text-gray-light text-right" style="width:100px;">
+              <time-ago datetime="2019-09-19T14:02:47Z" class="no-wrap">Sep 19, 2019</time-ago>
+          </div>
+
+        </div>
+        <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item ">
+          <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;">
+              <svg color="blue-3" aria-label="Directory" height="16" class="octicon octicon-file-directory color-blue-3" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path></svg>
+
+          </div>
+
+          <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3">
+            <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open link-gray-dark" title="doc" id="9a09b4dfda82e3e665e31092d1c3ec8d-8d36f49171a943fd2d3bc1b0b986694baead44c3" href="/rubygems/bundler/tree/master/doc">doc</a></span>
+          </div>
+
+          <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3 commit-message">
+              <span class="css-truncate css-truncate-target d-block width-fit">
+                    <a data-pjax="true" title="Use GitHub Actions instead of Travis CI on the doc" class="link-gray" href="/rubygems/bundler/commit/48eec6db9c316257527f364c0de0fa538663a0ff">Use GitHub Actions instead of Travis CI on the doc</a>
+              </span>
+          </div>
+
+          <div role="gridcell" class="text-gray-light text-right" style="width:100px;">
+              <time-ago datetime="2020-03-06T09:44:13Z" class="no-wrap">Mar 6, 2020</time-ago>
+          </div>
+
+        </div>
+        <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item ">
+          <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;">
+              <svg color="blue-3" aria-label="Directory" height="16" class="octicon octicon-file-directory color-blue-3" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path></svg>
+
+          </div>
+
+          <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3">
+            <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open link-gray-dark" title="exe" id="98e83379d45538379c2ac4e47c3be81d-4d789dfc54362e4c081de1641be048c6f3bf2937" href="/rubygems/bundler/tree/master/exe">exe</a></span>
+          </div>
+
+          <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3 commit-message">
+              <span class="css-truncate css-truncate-target d-block width-fit">
+                    <a data-pjax="true" title="Require relatively from exe/ when possible" class="link-gray" href="/rubygems/bundler/commit/e4cbb91b7df00d497870b6741ce72e8a393a2185">Require relatively from exe/ when possible</a>
+              </span>
+          </div>
+
+          <div role="gridcell" class="text-gray-light text-right" style="width:100px;">
+              <time-ago datetime="2019-08-17T11:35:54Z" class="no-wrap">Aug 17, 2019</time-ago>
+          </div>
+
+        </div>
+        <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item ">
+          <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;">
+              <svg color="blue-3" aria-label="Directory" height="16" class="octicon octicon-file-directory color-blue-3" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path></svg>
+
+          </div>
+
+          <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3">
+            <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open link-gray-dark" title="lib" id="e8acc63b1e238f3255c900eed37254b8-550490cae9f1cf2fb3776fb623d64209997cb1de" href="/rubygems/bundler/tree/master/lib">lib</a></span>
+          </div>
+
+          <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3 commit-message">
+              <span class="css-truncate css-truncate-target d-block width-fit">
+                    <a data-pjax="true" title="Merge #7580
+
+7580: Automultiplatform again r=indirect a=deivid-rodriguez
+
+This PR is a reintroduction of #7215, now that I consider the multiplatform feature usable enough.
+
+### What was the end-user problem that led to this PR?
+
+The problem was that currently if the gemfile include gems for specific platforms, like the default `gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]` Rails uses, bundler will always print a noisy warning, but I don't think users are doing anything wrong, just running `bundle install` on it.
+
+Also, unless they run `bundle lock --add-platform x86-mingw32 x86-mswin32 x64-mingw32 java`, and commit the resulting lockfile, they will continue to get the same warning over and over again.
+
+### What was your diagnosis of the problem?
+
+My diagnosis is that the fact that some gems will be unused under some platforms is inherent to the multiplatform feature itself, so we shouldn't warn about it because it's expected.
+
+Take the following Gemfile for example (a simplification of the default Gemfile Rails generators create):
+
+```ruby
+source &quot;https://rubygems.org&quot;
+
+gem &quot;rails&quot;
+
+gem &quot;tzinfo-data&quot;, platforms: &quot;jruby&quot;
+```
+
+If I type that Gemfile, it means that I'm explicitly opting into the multiplatform feature. So the behavior I would want as a user when I run `bundle install` on it is:
+
+* Resolve and lock the Gemfile for all platforms (`jruby` and whatever platform I'm running).
+* Install the resolution for the platform that I'm currently running.
+
+That way, when the other developers of my team using `jruby` install the `Gemfile`, they install a predictable, deterministic resolution.
+
+Currently, the only way to get that behavior is to run:
+
+```
+$ bundle install
+$ bundle lock --add-platform java
+```
+
+But there's no way to do it without getting a warning on the first `bundle install`, which annoys people because it makes you think you're doing something wrong.
+
+If you only plan to use MRI, you shouldn't specify any jruby-specific gems in your Gemfile and write instead:
+
+```ruby
+source &quot;https://rubygems.org&quot;
+
+gem &quot;rails&quot;
+```
+
+If on the other hand you only plan to use jruby, then you should not specify any `platform` option at all and write
+
+```ruby
+source &quot;https://rubygems.org&quot;
+
+gem &quot;rails&quot;
+
+gem &quot;tzinfo-data&quot;
+```
+
+So, to sum up, I think the range of platforms users expect to support can be guessed implicit from the Gemfile and the running platform. So we should resolve by default for all those platforms and don't warn about behavior that's most likely expected.
+
+### What is your fix for the problem, implemented in this PR?
+
+My fix is to do the right thing by default, and not warn users at all. That is:
+
+* Resolve the gemfile and lock it for all platforms present in the Gemfile.
+* Install gems for the current platform if requested.
+
+### Why did you choose this fix out of the possible options?
+
+I chose this fix because I think it's better for our users. We currently have a specific setting to avoid this warning, which I guess we added given the complaints. We no longer need that setting, nor the warning, so I removed both.
+
+Co-authored-by: David Rodríguez &lt;deivid.rodriguez@riseup.net&gt;" class="link-gray" href="/rubygems/bundler/commit/788a4071cf4e0b42f83e25ba2aedaf0b63546866">Merge</a> <a class="issue-link js-issue-link" data-error-text="Failed to load title" data-id="551408113" data-permission-text="Title is private" data-url="https://github.com/rubygems/bundler/issues/7580" data-hovercard-type="pull_request" data-hovercard-url="/rubygems/bundler/pull/7580/hovercard" href="https://github.com/rubygems/bundler/pull/7580">#7580</a>
+              </span>
+          </div>
+
+          <div role="gridcell" class="text-gray-light text-right" style="width:100px;">
+              <time-ago datetime="2020-02-27T22:00:32Z" class="no-wrap">Feb 27, 2020</time-ago>
+          </div>
+
+        </div>
+        <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item ">
+          <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;">
+              <svg color="blue-3" aria-label="Directory" height="16" class="octicon octicon-file-directory color-blue-3" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path></svg>
+
+          </div>
+
+          <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3">
+            <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open link-gray-dark" title="man" id="39c63ddb96a31b9610cd976b896ad4f0-d07bbe88471da831106ae87bc34a7480b939fb5b" href="/rubygems/bundler/tree/master/man">man</a></span>
+          </div>
+
+          <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3 commit-message">
+              <span class="css-truncate css-truncate-target d-block width-fit">
+                    <a data-pjax="true" title="Bump man pages month" class="link-gray" href="/rubygems/bundler/commit/995569b46957971b685c1b93614a7f226068a6a7">Bump man pages month</a>
+              </span>
+          </div>
+
+          <div role="gridcell" class="text-gray-light text-right" style="width:100px;">
+              <time-ago datetime="2020-03-04T12:48:11Z" class="no-wrap">Mar 4, 2020</time-ago>
+          </div>
+
+        </div>
+        <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item ">
+          <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;">
+              <svg color="blue-3" aria-label="Directory" height="16" class="octicon octicon-file-directory color-blue-3" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path></svg>
+
+          </div>
+
+          <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3">
+            <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open link-gray-dark" title="spec" id="b979c2934ac0b4ba3f08dabfdd1b2299-59cfff0378da97d9bb0d3fb35a46689c3bb0666e" href="/rubygems/bundler/tree/master/spec">spec</a></span>
+          </div>
+
+          <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3 commit-message">
+              <span class="css-truncate css-truncate-target d-block width-fit">
+                    <a data-pjax="true" title="For Ruby 2.3" class="link-gray" href="/rubygems/bundler/commit/4af7cc648434b415f8c546cf106cbf45d0ced327">For Ruby 2.3</a>
+              </span>
+          </div>
+
+          <div role="gridcell" class="text-gray-light text-right" style="width:100px;">
+              <time-ago datetime="2020-03-06T02:22:47Z" class="no-wrap">Mar 6, 2020</time-ago>
+          </div>
+
+        </div>
+        <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item ">
+          <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;">
+              <svg color="blue-3" aria-label="Directory" height="16" class="octicon octicon-file-directory color-blue-3" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path fill-rule="evenodd" d="M1.75 1A1.75 1.75 0 000 2.75v10.5C0 14.216.784 15 1.75 15h12.5A1.75 1.75 0 0016 13.25v-8.5A1.75 1.75 0 0014.25 3h-6.5a.25.25 0 01-.2-.1l-.9-1.2c-.33-.44-.85-.7-1.4-.7h-3.5z"></path></svg>
+
+          </div>
+
+          <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3">
+            <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open link-gray-dark" title="task" id="478f3a4c51824ad23cb50c1c60670c0f-5aca6205f179a743f433b70b948df5ce125c135b" href="/rubygems/bundler/tree/master/task">task</a></span>
+          </div>
+
+          <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3 commit-message">
+              <span class="css-truncate css-truncate-target d-block width-fit">
+                    <a data-pjax="true" title="Fix test issue when using `rubygems-bundler` gem" class="link-gray" href="/rubygems/bundler/commit/fac95ee36d209263b8ff15eaa022d9cc9ca2125a">Fix test issue when using `rubygems-bundler` gem</a>
+              </span>
+          </div>
+
+          <div role="gridcell" class="text-gray-light text-right" style="width:100px;">
+              <time-ago datetime="2019-12-19T15:33:10Z" class="no-wrap">Dec 19, 2019</time-ago>
+          </div>
+
+        </div>
+        <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item ">
+          <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;">
+              <svg color="gray-light" aria-label="File" height="16" class="octicon octicon-file text-gray-light" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path></svg>
+
+          </div>
+
+          <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3">
+            <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open link-gray-dark" title=".codeclimate.yml" id="0655d430acfa953cae08b6619689d18c-b8d91f14c4e1d56161ca46ec58c6fe08bd1cbac6" href="/rubygems/bundler/blob/master/.codeclimate.yml">.codeclimate.yml</a></span>
+          </div>
+
+          <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3 commit-message">
+              <span class="css-truncate css-truncate-target d-block width-fit">
+                    <a data-pjax="true" title="[CodeClimate] Ignore Rakefile" class="link-gray" href="/rubygems/bundler/commit/9d43a0504023926e8457832d0841d8d44a6217c5">[CodeClimate] Ignore Rakefile</a>
+              </span>
+          </div>
+
+          <div role="gridcell" class="text-gray-light text-right" style="width:100px;">
+              <time-ago datetime="2016-08-02T20:04:28Z" class="no-wrap">Aug 2, 2016</time-ago>
+          </div>
+
+        </div>
+        <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item ">
+          <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;">
+              <svg color="gray-light" aria-label="File" height="16" class="octicon octicon-file text-gray-light" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path></svg>
+
+          </div>
+
+          <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3">
+            <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open link-gray-dark" title=".gitignore" id="a084b794bc0759e7a6b77810e01874f2-d375efa1a48802aabead53409439399079dc6f03" href="/rubygems/bundler/blob/master/.gitignore">.gitignore</a></span>
+          </div>
+
+          <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3 commit-message">
+              <span class="css-truncate css-truncate-target d-block width-fit">
+                    <a data-pjax="true" title="Commit man pages to source control
+
+This has the benefit that:
+
+* Allows the installation of bundler as a default gem from rubygems to
+include man pages.
+* Removes the need to build man pages during our tests.
+* Makes working with the manifest easier, because we only have source
+controlled files, and not a mix of source control and generated files.
+
+To make sure they never fall out of sync, we replace the previous
+`man:build` CI task with a `man:check` task that makes sure the
+generated man pages are up to date." class="link-gray" href="/rubygems/bundler/commit/23de1d0177646ab73bd9ed193e29335c3a64dd5c">Commit man pages to source control</a>
+              </span>
+          </div>
+
+          <div role="gridcell" class="text-gray-light text-right" style="width:100px;">
+              <time-ago datetime="2019-08-10T10:05:10Z" class="no-wrap">Aug 10, 2019</time-ago>
+          </div>
+
+        </div>
+        <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item ">
+          <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;">
+              <svg color="gray-light" aria-label="File" height="16" class="octicon octicon-file text-gray-light" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path></svg>
+
+          </div>
+
+          <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3">
+            <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open link-gray-dark" title=".rspec" id="f5deb99143d9a1be756e16d12073da6e-f1e953553fe002c91bd8be03e974f29db8165952" href="/rubygems/bundler/blob/master/.rspec">.rspec</a></span>
+          </div>
+
+          <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3 commit-message">
+              <span class="css-truncate css-truncate-target d-block width-fit">
+                    <a data-pjax="true" title="Consistenly use the default RSpec formatter" class="link-gray" href="/rubygems/bundler/commit/789d18141660b4dabe692908bd6bcb588cc67379">Consistenly use the default RSpec formatter</a>
+              </span>
+          </div>
+
+          <div role="gridcell" class="text-gray-light text-right" style="width:100px;">
+              <time-ago datetime="2019-09-23T20:38:46Z" class="no-wrap">Sep 23, 2019</time-ago>
+          </div>
+
+        </div>
+        <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item ">
+          <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;">
+              <svg color="gray-light" aria-label="File" height="16" class="octicon octicon-file text-gray-light" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path></svg>
+
+          </div>
+
+          <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3">
+            <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open link-gray-dark" title=".rspec_parallel" id="4dc6718a7fe30854410ff424a0d50f4c-6989221a44cc3734783bd466ef395a9ffda49b3d" href="/rubygems/bundler/blob/master/.rspec_parallel">.rspec_parallel</a></span>
+          </div>
+
+          <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3 commit-message">
+              <span class="css-truncate css-truncate-target d-block width-fit">
+                    <a data-pjax="true" title="Set parallel_tests to also output rspec progress" class="link-gray" href="/rubygems/bundler/commit/fb16ffdb10696e7a6726a1dbb33fac3e7f4f8153">Set parallel_tests to also output rspec progress</a>
+              </span>
+          </div>
+
+          <div role="gridcell" class="text-gray-light text-right" style="width:100px;">
+              <time-ago datetime="2019-11-29T13:33:52Z" class="no-wrap">Nov 29, 2019</time-ago>
+          </div>
+
+        </div>
+        <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item ">
+          <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;">
+              <svg color="gray-light" aria-label="File" height="16" class="octicon octicon-file text-gray-light" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path></svg>
+
+          </div>
+
+          <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3">
+            <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open link-gray-dark" title=".rubocop.yml" id="11a0d7906801d9dea0eccb85667ad811-3a4d8cb295bbe6d4dd93ba5a775ede0ed0281eb5" href="/rubygems/bundler/blob/master/.rubocop.yml">.rubocop.yml</a></span>
+          </div>
+
+          <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3 commit-message">
+              <span class="css-truncate css-truncate-target d-block width-fit">
+                    <a data-pjax="true" title="Workaround jruby issue" class="link-gray" href="/rubygems/bundler/commit/2a53367358317f08947847a10364c2e2b2a744a0">Workaround jruby issue</a>
+              </span>
+          </div>
+
+          <div role="gridcell" class="text-gray-light text-right" style="width:100px;">
+              <time-ago datetime="2020-02-02T15:47:08Z" class="no-wrap">Feb 2, 2020</time-ago>
+          </div>
+
+        </div>
+        <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item ">
+          <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;">
+              <svg color="gray-light" aria-label="File" height="16" class="octicon octicon-file text-gray-light" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path></svg>
+
+          </div>
+
+          <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3">
+            <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open link-gray-dark" title="CHANGELOG.md" id="4ac32a78649ca5bdd8e0ba38b7006a1e-1cfa97454549f4513d08e5abe20f5544034ecba9" href="/rubygems/bundler/blob/master/CHANGELOG.md">CHANGELOG.md</a></span>
+          </div>
+
+          <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3 commit-message">
+              <span class="css-truncate css-truncate-target d-block width-fit">
+                    <a data-pjax="true" title="Changelog for 2.1.4" class="link-gray" href="/rubygems/bundler/commit/48af0df189008df778591962bad28c2e6e0cae65">Changelog for 2.1.4</a>
+              </span>
+          </div>
+
+          <div role="gridcell" class="text-gray-light text-right" style="width:100px;">
+              <time-ago datetime="2020-01-27T17:54:40Z" class="no-wrap">Jan 27, 2020</time-ago>
+          </div>
+
+        </div>
+        <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item ">
+          <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;">
+              <svg color="gray-light" aria-label="File" height="16" class="octicon octicon-file text-gray-light" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path></svg>
+
+          </div>
+
+          <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3">
+            <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open link-gray-dark" title="CODE_OF_CONDUCT.md" id="a1ee87dafebc22cbd96979f1b2b7e837-8baf88f8068ba90ffbf1a1df336a7c729e834bbc" href="/rubygems/bundler/blob/master/CODE_OF_CONDUCT.md">CODE_OF_CONDUCT.md</a></span>
+          </div>
+
+          <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3 commit-message">
+              <span class="css-truncate css-truncate-target d-block width-fit">
+                    <a data-pjax="true" title="Revise CoC based on Contributor Covenant 2.0
+
+Bundler has had a code of conduct since before the Contributor Covenant was available as an option. In my (admittedly somewhat vague) memory, we continued to use our own custom CoC based on wanting clear enforcement examples directly in the CoC. The Contributor Covenant now contains enforcement examples as of 2.0, so I am proposing that we migrate Bundler&#39;s CoC to CC 2.0.
+
+Additional benefits:
+  - Merging with RubyGems gets easier, since RubyGems uses CC already (rubygems/rubygems#3157).
+  - The `bundle gem` template and Bundler itself will now use the same CoC." class="link-gray" href="/rubygems/bundler/commit/9b902f357bc5d3a70d637b2622ed8d61fd85e93d">Revise CoC based on Contributor Covenant 2.0</a>
+              </span>
+          </div>
+
+          <div role="gridcell" class="text-gray-light text-right" style="width:100px;">
+              <time-ago datetime="2020-02-27T20:38:38Z" class="no-wrap">Feb 27, 2020</time-ago>
+          </div>
+
+        </div>
+        <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item ">
+          <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;">
+              <svg color="gray-light" aria-label="File" height="16" class="octicon octicon-file text-gray-light" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path></svg>
+
+          </div>
+
+          <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3">
+            <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open link-gray-dark" title="LICENSE.md" id="37854d19817c792316d481f5beb93cc7-52b5c2132f355251e064edce92ba2c4dc47b2bf5" itemprop="license" href="/rubygems/bundler/blob/master/LICENSE.md">LICENSE.md</a></span>
+          </div>
+
+          <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3 commit-message">
+              <span class="css-truncate css-truncate-target d-block width-fit">
+                    <a data-pjax="true" title="Try to help GitHub recognize the MIT license
+
+It seems like GitHub can&#39;t tell what license this is, despite explicitly
+naming it inside the file. These changes make our license file closer to
+other license files that GitHub does successfully recognize as MIT.
+Hopefully it&#39;ll work." class="link-gray" href="/rubygems/bundler/commit/162159575153ecb51af93ffc6b9dadf228cdc1bd">Try to help GitHub recognize the MIT license</a>
+              </span>
+          </div>
+
+          <div role="gridcell" class="text-gray-light text-right" style="width:100px;">
+              <time-ago datetime="2019-06-05T08:25:46Z" class="no-wrap">Jun 5, 2019</time-ago>
+          </div>
+
+        </div>
+        <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item ">
+          <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;">
+              <svg color="gray-light" aria-label="File" height="16" class="octicon octicon-file text-gray-light" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path></svg>
+
+          </div>
+
+          <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3">
+            <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open link-gray-dark" title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-7766f05acca16f4ee538f99c9e3243da4571c9b2" href="/rubygems/bundler/blob/master/README.md">README.md</a></span>
+          </div>
+
+          <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3 commit-message">
+              <span class="css-truncate css-truncate-target d-block width-fit">
+                    <a data-pjax="true" title="Make a bold-style" class="link-gray" href="/rubygems/bundler/commit/251e422bfe938564d4447c0b4323c5626d4100bf">Make a bold-style</a>
+              </span>
+          </div>
+
+          <div role="gridcell" class="text-gray-light text-right" style="width:100px;">
+              <time-ago datetime="2020-03-12T01:02:42Z" class="no-wrap">Mar 12, 2020</time-ago>
+          </div>
+
+        </div>
+        <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item ">
+          <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;">
+              <svg color="gray-light" aria-label="File" height="16" class="octicon octicon-file text-gray-light" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path></svg>
+
+          </div>
+
+          <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3">
+            <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open link-gray-dark" title="Rakefile" id="52c976fc38ed2b4e3b1192f8a8e24cff-4a17296ee7ba7f717ee7bb9f85a1b23b0ce282e3" href="/rubygems/bundler/blob/master/Rakefile">Rakefile</a></span>
+          </div>
+
+          <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3 commit-message">
+              <span class="css-truncate css-truncate-target d-block width-fit">
+                    <a data-pjax="true" title="Restore sudo configuration after sudo specs" class="link-gray" href="/rubygems/bundler/commit/d36920f40dae8bb0cda7f4c14fc32fe30ea7fe0e">Restore sudo configuration after sudo specs</a>
+              </span>
+          </div>
+
+          <div role="gridcell" class="text-gray-light text-right" style="width:100px;">
+              <time-ago datetime="2020-03-04T17:27:46Z" class="no-wrap">Mar 4, 2020</time-ago>
+          </div>
+
+        </div>
+        <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item ">
+          <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;">
+              <svg color="gray-light" aria-label="File" height="16" class="octicon octicon-file text-gray-light" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path></svg>
+
+          </div>
+
+          <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3">
+            <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open link-gray-dark" title="UPGRADING.md" id="8f9c1338eaf62f816d813b24392771cb-611a73a6d498e81eda71ed307d8eeb8094bfe21f" href="/rubygems/bundler/blob/master/UPGRADING.md">UPGRADING.md</a></span>
+          </div>
+
+          <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3 commit-message">
+              <span class="css-truncate css-truncate-target d-block width-fit">
+                    <a data-pjax="true" title="Reformulation of changes after bundler 2.1 has been released
+
+Update text to reflect the deprecation texts are already added in version 2.1, and that version 2.1 has already been released" class="link-gray" href="/rubygems/bundler/commit/c104018943d1b642c70ce11a20eec81adbbe08c2">Reformulation of changes after bundler 2.1 has been released</a>
+              </span>
+          </div>
+
+          <div role="gridcell" class="text-gray-light text-right" style="width:100px;">
+              <time-ago datetime="2020-03-02T07:54:20Z" class="no-wrap">Mar 2, 2020</time-ago>
+          </div>
+
+        </div>
+        <div role="row" class="Box-row Box-row--focus-gray py-2 d-flex position-relative js-navigation-item ">
+          <div role="gridcell" class="mr-3 flex-shrink-0" style="width: 16px;">
+              <svg color="gray-light" aria-label="File" height="16" class="octicon octicon-file text-gray-light" viewBox="0 0 16 16" version="1.1" width="16" role="img"><path fill-rule="evenodd" d="M3.75 1.5a.25.25 0 00-.25.25v11.5c0 .138.112.25.25.25h8.5a.25.25 0 00.25-.25V6H9.75A1.75 1.75 0 018 4.25V1.5H3.75zm5.75.56v2.19c0 .138.112.25.25.25h2.19L9.5 2.06zM2 1.75C2 .784 2.784 0 3.75 0h5.086c.464 0 .909.184 1.237.513l3.414 3.414c.329.328.513.773.513 1.237v8.086A1.75 1.75 0 0112.25 15h-8.5A1.75 1.75 0 012 13.25V1.75z"></path></svg>
+
+          </div>
+
+          <div role="rowheader" class="flex-auto min-width-0 col-md-2 mr-3">
+            <span class="css-truncate css-truncate-target d-block width-fit"><a class="js-navigation-open link-gray-dark" title="bundler.gemspec" id="6ac292c8e0d03698a046322989f7e57c-27a7f1ea2e8e1fa3d9dfcf06cb748d9b0a270dac" href="/rubygems/bundler/blob/master/bundler.gemspec">bundler.gemspec</a></span>
+          </div>
+
+          <div role="gridcell" class="flex-auto min-width-0 d-none d-md-block col-5 mr-3 commit-message">
+              <span class="css-truncate css-truncate-target d-block width-fit">
+                    <a data-pjax="true" title="[repo move] Update GitHub URL in bundler.gemspec." class="link-gray" href="/rubygems/bundler/commit/783e7a172c6d3b5b15d76a85f63cd410c9f91523">[repo move] Update GitHub URL in bundler.gemspec.</a>
+              </span>
+          </div>
+
+          <div role="gridcell" class="text-gray-light text-right" style="width:100px;">
+              <time-ago datetime="2020-01-16T23:09:00Z" class="no-wrap">Jan 16, 2020</time-ago>
+          </div>
+
+        </div>
+    </div>
+    <div class="Details-content--shown Box-footer d-md-none p-0">
+      <button type="button" class="d-block btn-link js-details-target width-full px-3 py-2" aria-expanded="false">
+        View code
+      </button>
+    </div>
+  </div>
+
+
+
+
+</div>
+
+  <div id="readme" class="Box md js-code-block-container Box--responsive">
+    <div class="Box-header d-flex flex-items-center flex-justify-between bg-white border-bottom-0">
+      <h2 class="Box-title pr-3">
+        README.md
+      </h2>
+    </div>
+        <div class="Popover anim-scale-in js-tagsearch-popover"
+     hidden
+     data-tagsearch-url="/rubygems/bundler/find-definition"
+     data-tagsearch-ref="master"
+     data-tagsearch-path="README.md"
+     data-tagsearch-lang="Markdown"
+     data-hydro-click="{&quot;event_type&quot;:&quot;code_navigation.click_on_symbol&quot;,&quot;payload&quot;:{&quot;action&quot;:&quot;click_on_symbol&quot;,&quot;repository_id&quot;:488514,&quot;ref&quot;:&quot;master&quot;,&quot;language&quot;:&quot;Markdown&quot;,&quot;originating_url&quot;:&quot;https://github.com/rubygems/bundler/tree/master&quot;,&quot;user_id&quot;:null}}"
+     data-hydro-click-hmac="0c7a8ccc8ea7b93268e0bb86bbb8cd73ddf30c5962a12bc6002da337ae74cac0">
+  <div class="Popover-message Popover-message--large Popover-message--top-left TagsearchPopover mt-1 mb-4 mx-auto Box box-shadow-large">
+    <div class="TagsearchPopover-content js-tagsearch-popover-content overflow-auto" style="will-change:transform;">
+    </div>
+  </div>
+</div>
+
+      <div class="Box-body px-5 pb-5">
+        <article class="markdown-body entry-content container-lg" itemprop="text"><p><strong>Bundler is now maintained in the <a href="https://github.com/rubygems/rubygems">rubygems/rubygems</a> repository.</strong></p>
+<hr>
+<p><a href="https://rubygems.org/gems/bundler" rel="nofollow"><img src="https://camo.githubusercontent.com/41d050d3af3bfd5379f4c92a1213173ef0518163/68747470733a2f2f696d672e736869656c64732e696f2f67656d2f762f62756e646c65722e7376673f7374796c653d666c6174" alt="Version     " data-canonical-src="https://img.shields.io/gem/v/bundler.svg?style=flat" style="max-width:100%;"></a>
+<a href="https://inch-ci.org/github/rubygems/bundler" rel="nofollow"><img src="https://camo.githubusercontent.com/105b610a11cc83cea31539e4ecafc65622824180/68747470733a2f2f696e63682d63692e6f72672f6769746875622f7275627967656d732f62756e646c65722e7376673f7374796c653d666c6174" alt="Inline docs " data-canonical-src="https://inch-ci.org/github/rubygems/bundler.svg?style=flat" style="max-width:100%;"></a>
+<a href="https://bundler-slackin.herokuapp.com" rel="nofollow"><img src="https://camo.githubusercontent.com/f2c7c1c13c687207a233890135e120cd9a424c83/68747470733a2f2f62756e646c65722d736c61636b696e2e6865726f6b756170702e636f6d2f62616467652e737667" alt="Slack       " data-canonical-src="https://bundler-slackin.herokuapp.com/badge.svg" style="max-width:100%;"></a></p>
+<h1><a id="user-content-bundler-a-gem-to-bundle-gems" class="anchor" aria-hidden="true" href="#bundler-a-gem-to-bundle-gems"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Bundler: a gem to bundle gems</h1>
+<p>Bundler makes sure Ruby applications run the same code on every machine.</p>
+<p>It does this by managing the gems that the application depends on. Given a list of gems, it can automatically download and install those gems, as well as any other gems needed by the gems that are listed. Before installing gems, it checks the versions of every gem to make sure that they are compatible, and can all be loaded at the same time. After the gems have been installed, Bundler can help you update some or all of them when new versions become available. Finally, it records the exact versions that have been installed, so that others can install the exact same gems.</p>
+<h3><a id="user-content-installation-and-usage" class="anchor" aria-hidden="true" href="#installation-and-usage"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Installation and usage</h3>
+<p>To install (or update to the latest version):</p>
+<pre><code>gem install bundler
+</code></pre>
+<p>To install a prerelease version (if one is available), run <code>gem install bundler --pre</code>. To uninstall Bundler, run <code>gem uninstall bundler</code>.</p>
+<p>Bundler is most commonly used to manage your application's dependencies. For example, these commands will allow you to use Bundler to manage the <code>rspec</code> gem for your application:</p>
+<pre><code>bundle init
+bundle add rspec
+bundle install
+bundle exec rspec
+</code></pre>
+<p>See <a href="https://bundler.io" rel="nofollow">bundler.io</a> for the full documentation.</p>
+<h3><a id="user-content-troubleshooting" class="anchor" aria-hidden="true" href="#troubleshooting"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Troubleshooting</h3>
+<p>For help with common problems, see <a href="/rubygems/bundler/blob/master/doc/TROUBLESHOOTING.md">TROUBLESHOOTING</a>.</p>
+<p>Still stuck? Try <a href="/rubygems/bundler/blob/master/doc/contributing/ISSUES.md">filing an issue</a>.</p>
+<h3><a id="user-content-other-questions" class="anchor" aria-hidden="true" href="#other-questions"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Other questions</h3>
+<p>To see what has changed in recent versions of Bundler, see the <a href="/rubygems/bundler/blob/master/CHANGELOG.md">CHANGELOG</a>.</p>
+<p>To get in touch with the Bundler core team and other Bundler users, please see <a href="/rubygems/bundler/blob/master/doc/contributing/GETTING_HELP.md">getting help</a>.</p>
+<h3><a id="user-content-contributing" class="anchor" aria-hidden="true" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Contributing</h3>
+<p>If you'd like to contribute to Bundler, that's awesome, and we &lt;3 you. We've put together <a href="https://github.com/rubygems/bundler/blob/master/doc/contributing/README.md">the Bundler contributor guide</a> with all of the information you need to get started.</p>
+<p>If you'd like to request a substantial change to Bundler or to the Bundler documentation, refer to the <a href="https://github.com/bundler/rfcs">Bundler RFC process</a> for more information.</p>
+<p>While some Bundler contributors are compensated by Ruby Together, the project maintainers make decisions independent of Ruby Together. As a project, we welcome contributions regardless of the author's affiliation with Ruby Together.</p>
+<h3><a id="user-content-supporting" class="anchor" aria-hidden="true" href="#supporting"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Supporting</h3>
+<p><a href="https://rubytogether.org/" rel="nofollow"><img src="https://camo.githubusercontent.com/a864e2a35432f448b67719222c36107e2c45dca3/68747470733a2f2f72756279746f6765746865722e6f72672f696d616765732f7275626965732e737667" width="150" data-canonical-src="https://rubytogether.org/images/rubies.svg" style="max-width:100%;"></a><br>
+<a href="https://rubytogether.org/" rel="nofollow">Ruby Together</a> pays some Bundler maintainers for their ongoing work. As a grassroots initiative committed to supporting the critical Ruby infrastructure you rely on, Ruby Together is funded entirely by the Ruby community. Contribute today <a href="https://rubytogether.org/developers" rel="nofollow">as an individual</a> or (better yet) <a href="https://rubytogether.org/companies" rel="nofollow">as a company</a> to ensure that Bundler, RubyGems, and other shared tooling is around for years to come.</p>
+<h3><a id="user-content-code-of-conduct" class="anchor" aria-hidden="true" href="#code-of-conduct"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>Code of Conduct</h3>
+<p>Everyone interacting in the Bundler project's codebases, issue trackers, chat rooms, and mailing lists is expected to follow the <a href="https://github.com/rubygems/bundler/blob/master/CODE_OF_CONDUCT.md">Bundler code of conduct</a>.</p>
+<h3><a id="user-content-license" class="anchor" aria-hidden="true" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg></a>License</h3>
+<p>Bundler is available under an <a href="https://github.com/rubygems/bundler/blob/master/LICENSE.md">MIT License</a>.</p>
+</article>
+      </div>
+  </div>
+
+
+</div>
+    <div class="flex-shrink-0 col-12 col-md-3">
+            
+
+      <div class="BorderGrid BorderGrid--spacious" data-pjax>
+        <div class="BorderGrid-row hide-sm hide-md">
+          <div class="BorderGrid-cell">
+            <h2 class="mb-3 h4">About</h2>
+
+    <p class="f4 mt-3">
+      Manage your Ruby application's gem dependencies
+    </p>
+    <div class="mt-3 d-flex flex-items-center">
+      <svg mr="2" classes="flex-shrink-0" height="16" class="octicon octicon-link flex-shrink-0 mr-2" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg>
+      <span class="flex-auto min-width-0 css-truncate css-truncate-target width-fit">
+        <a title="https://bundler.io" role="link" target="_blank" class="text-bold" rel="noopener noreferrer" href="https://bundler.io">bundler.io</a>
+      </span>
+    </div>
+
+  <h3 class="sr-only">Topics</h3>
+  <div class="mt-3">
+      <div class="f6">
+      <a data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:ruby" href="/topics/ruby" title="Topic: ruby" class="topic-tag topic-tag-link ">
+  ruby
+</a>
+      <a data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:rubygems" href="/topics/rubygems" title="Topic: rubygems" class="topic-tag topic-tag-link ">
+  rubygems
+</a>
+      <a data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:dependency-manager" href="/topics/dependency-manager" title="Topic: dependency-manager" class="topic-tag topic-tag-link ">
+  dependency-manager
+</a>
+  </div>
+
+  </div>
+
+  <h3 class="sr-only">Resources</h3>
+  <div class="mt-3">
+    <a class="muted-link" href="#readme">
+      <svg mr="2" height="16" class="octicon octicon-book mr-2" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 1.75A.75.75 0 01.75 1h4.253c1.227 0 2.317.59 3 1.501A3.744 3.744 0 0111.006 1h4.245a.75.75 0 01.75.75v10.5a.75.75 0 01-.75.75h-4.507a2.25 2.25 0 00-1.591.659l-.622.621a.75.75 0 01-1.06 0l-.622-.621A2.25 2.25 0 005.258 13H.75a.75.75 0 01-.75-.75V1.75zm8.755 3a2.25 2.25 0 012.25-2.25H14.5v9h-3.757c-.71 0-1.4.201-1.992.572l.004-7.322zm-1.504 7.324l.004-5.073-.002-2.253A2.25 2.25 0 005.003 2.5H1.5v9h3.757a3.75 3.75 0 011.994.574z"></path></svg>
+      Readme
+</a>  </div>
+
+  <h3 class="sr-only">License</h3>
+  <div class="mt-3">
+    <a href="/rubygems/bundler/blob/master/LICENSE.md" class="muted-link" >
+      <svg mr="2" height="16" class="octicon octicon-law mr-2" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.75.75a.75.75 0 00-1.5 0V2h-.984c-.305 0-.604.08-.869.23l-1.288.737A.25.25 0 013.984 3H1.75a.75.75 0 000 1.5h.428L.066 9.192a.75.75 0 00.154.838l.53-.53-.53.53v.001l.002.002.002.002.006.006.016.015.045.04a3.514 3.514 0 00.686.45A4.492 4.492 0 003 11c.88 0 1.556-.22 2.023-.454a3.515 3.515 0 00.686-.45l.045-.04.016-.015.006-.006.002-.002.001-.002L5.25 9.5l.53.53a.75.75 0 00.154-.838L3.822 4.5h.162c.305 0 .604-.08.869-.23l1.289-.737a.25.25 0 01.124-.033h.984V13h-2.5a.75.75 0 000 1.5h6.5a.75.75 0 000-1.5h-2.5V3.5h.984a.25.25 0 01.124.033l1.29.736c.264.152.563.231.868.231h.162l-2.112 4.692a.75.75 0 00.154.838l.53-.53-.53.53v.001l.002.002.002.002.006.006.016.015.045.04a3.517 3.517 0 00.686.45A4.492 4.492 0 0013 11c.88 0 1.556-.22 2.023-.454a3.512 3.512 0 00.686-.45l.045-.04.01-.01.006-.005.006-.006.002-.002.001-.002-.529-.531.53.53a.75.75 0 00.154-.838L13.823 4.5h.427a.75.75 0 000-1.5h-2.234a.25.25 0 01-.124-.033l-1.29-.736A1.75 1.75 0 009.735 2H8.75V.75zM1.695 9.227c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L3 6.327l-1.305 2.9zm10 0c.285.135.718.273 1.305.273s1.02-.138 1.305-.273L13 6.327l-1.305 2.9z"></path></svg>
+        MIT License
+    </a>
+  </div>
+
+          </div>
+        </div>
+          <div class="BorderGrid-row">
+            <div class="BorderGrid-cell">
+              <h2 class="h4 mb-3">
+  <a href="/rubygems/bundler/releases" class="link-gray-dark no-underline ">
+    Releases
+      <span title="296" class="Counter ">296</span>
+</a></h2>
+
+  <a class="link-gray-dark d-flex no-underline" href="/rubygems/bundler/releases/tag/v2.1.4">
+    <svg mt="1" classes="flex-shrink-0" color="green" height="16" class="octicon octicon-tag flex-shrink-0 mt-1 text-green" viewBox="0 0 16 16" version="1.1" width="16" aria-hidden="true"><path fill-rule="evenodd" d="M2.5 7.775V2.75a.25.25 0 01.25-.25h5.025a.25.25 0 01.177.073l6.25 6.25a.25.25 0 010 .354l-5.025 5.025a.25.25 0 01-.354 0l-6.25-6.25a.25.25 0 01-.073-.177zm-1.5 0V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 010 2.474l-5.026 5.026a1.75 1.75 0 01-2.474 0l-6.25-6.25A1.75 1.75 0 011 7.775zM6 5a1 1 0 100 2 1 1 0 000-2z"></path></svg>
+    <div class="ml-2 min-width-0">
+      <div class="d-flex">
+        <span class="css-truncate css-truncate-target text-bold mr-2" style="max-width: none;">v2.1.4</span>
+        <span title="Label: Latest" class="Label Label--green flex-shrink-0">
+          Latest
+</span>      </div>
+      <div class="text-small text-gray"><relative-time datetime="2020-01-05T18:18:48Z" class="no-wrap">Jan 5, 2020</relative-time></div>
+    </div>
+</a>    <div class="mt-3">
+      <a href="/rubygems/bundler/releases" class="text-small">
+        + 295 releases
+</a></div>
+            </div>
+          </div>
+          <div class="BorderGrid-row">
+            <div class="BorderGrid-cell">
+              <h2 class="h4 mb-3">Sponsor this project</h2>
+<include-fragment src="/rubygems/bundler/sponsors_list?block_button=false&amp;current_repository=bundler" aria-busy="true" aria-label="Loading sponsorable links">
+        <ul class="list-style-none">
+        </ul>
+</include-fragment>  <ul class="list-style-none">
+        <li class="mb-2 d-flex">
+          <span class="mr-2 d-flex flex-items-center flex-justify-center" style="min-width:32px;height:32px;">
+            <svg class="octicon octicon-link text-gray" alt="custom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.775 3.275a.75.75 0 001.06 1.06l1.25-1.25a2 2 0 112.83 2.83l-2.5 2.5a2 2 0 01-2.83 0 .75.75 0 00-1.06 1.06 3.5 3.5 0 004.95 0l2.5-2.5a3.5 3.5 0 00-4.95-4.95l-1.25 1.25zm-4.69 9.64a2 2 0 010-2.83l2.5-2.5a2 2 0 012.83 0 .75.75 0 001.06-1.06 3.5 3.5 0 00-4.95 0l-2.5 2.5a3.5 3.5 0 004.95 4.95l1.25-1.25a.75.75 0 00-1.06-1.06l-1.25 1.25a2 2 0 01-2.83 0z"></path></svg>
+          </span>
+          <span class="flex-self-center flex-auto min-width-0 css-truncate css-truncate-target width-fit">
+            <a target="_blank" data-ga-click="Dashboard, click, Nav menu - item:org-profile context:organization" data-hydro-click="{&quot;event_type&quot;:&quot;sponsors.repo_funding_links_link_click&quot;,&quot;payload&quot;:{&quot;platform&quot;:{&quot;platform_type&quot;:&quot;CUSTOM&quot;,&quot;platform_url&quot;:&quot;https://rubytogether.org&quot;},&quot;platforms&quot;:[{&quot;platform_type&quot;:&quot;CUSTOM&quot;,&quot;platform_url&quot;:&quot;https://rubytogether.org&quot;}],&quot;repo_id&quot;:488514,&quot;owner_id&quot;:208761,&quot;user_id&quot;:null,&quot;originating_url&quot;:&quot;https://github.com/rubygems/bundler/tree/master&quot;}}" data-hydro-click-hmac="db41568b69529e66cf51b427e89033069494f9840ba7f27a87dd2a8bdb9960ae" rel="noopener noreferrer" href="https://rubytogether.org">https://rubytogether.org</a>
+          </span>
+        </li>
+  </ul>
+<div class="text-small mt-3">
+  Learn more about <a href="/sponsors">GitHub Sponsors</a>
+</div>
+
+            </div>
+          </div>
+          <div class="BorderGrid-row">
+            <div class="BorderGrid-cell">
+              <h2 class="h4 mb-3">
+  <a href="/rubygems/bundler/packages" class="link-gray-dark no-underline ">
+    Packages <span title="0" hidden="hidden" class="Counter ">0</span>
+</a></h2>
+
+
+      <div class="text-small">
+        No packages published <br>
+      </div>
+
+
+
+            </div>
+          </div>
+          <div class="BorderGrid-row" >
+            <div class="BorderGrid-cell">
+              
+
+    <h2 class="h4 mb-3">
+      <a href="/rubygems/bundler/network/dependents?package_id=UGFja2FnZS0xNjU%3D" class="link-gray-dark no-underline ">
+        Used by <span title="5,000+" class="Counter ">5,000+</span>
+</a>    </h2>
+
+      <a class="d-flex flex-items-center" href="/rubygems/bundler/network/dependents?package_id=UGFja2FnZS0xNjU%3D">
+        <ul class="hx_flex-avatar-stack list-style-none min-width-0">
+              <li class="hx_flex-avatar-stack-item">
+                <img class="avatar avatar-user" height="32" width="32" alt="@grezar" src="https://avatars3.githubusercontent.com/u/27184133?s=88&amp;u=1a6a6c0874f4f8bc575d2e0edad87149e3df2623&amp;v=4" />
+              </li>
+              <li class="hx_flex-avatar-stack-item">
+                <img class="avatar avatar-user" height="32" width="32" alt="@gokhj" src="https://avatars2.githubusercontent.com/u/5124654?s=88&amp;u=23a1b155c8a59cf3aa0a75e7091dbc47e2777d3c&amp;v=4" />
+              </li>
+              <li class="hx_flex-avatar-stack-item">
+                <img class="avatar" height="32" width="32" alt="@Skywire" src="https://avatars3.githubusercontent.com/u/1172463?s=88&amp;v=4" />
+              </li>
+              <li class="hx_flex-avatar-stack-item">
+                <img class="avatar avatar-user" height="32" width="32" alt="@seyyah" src="https://avatars0.githubusercontent.com/u/263237?s=88&amp;u=46c151b3d5af22afb3e440d66c5e3522a10f9351&amp;v=4" />
+              </li>
+              <li class="hx_flex-avatar-stack-item">
+                <img class="avatar" height="32" width="32" alt="@meneta-monetize" src="https://avatars3.githubusercontent.com/u/65824509?s=88&amp;v=4" />
+              </li>
+              <li class="hx_flex-avatar-stack-item">
+                <img class="avatar avatar-user" height="32" width="32" alt="@pblittle" src="https://avatars0.githubusercontent.com/u/21940?s=88&amp;v=4" />
+              </li>
+              <li class="hx_flex-avatar-stack-item">
+                <img class="avatar" height="32" width="32" alt="@uktrade" src="https://avatars1.githubusercontent.com/u/15107524?s=88&amp;v=4" />
+              </li>
+              <li class="hx_flex-avatar-stack-item">
+                <img class="avatar avatar-user" height="32" width="32" alt="@iliopk" src="https://avatars2.githubusercontent.com/u/66413859?s=88&amp;v=4" />
+              </li>
+        </ul>
+          <span class="px-2 text-bold text-small no-wrap">
+            + 172,833
+          </span>
+      </a>
+
+            </div>
+          </div>
+          <div class="BorderGrid-row">
+            <div class="BorderGrid-cell">
+              <h2 class="h4 mb-3">
+  <a href="/rubygems/bundler/graphs/contributors" class="link-gray-dark no-underline ">
+    Contributors <span title="676" class="Counter ">676</span>
+</a></h2>
+
+
+    
+  <ul class="list-style-none d-flex flex-wrap mb-n2">
+      <li class="mb-2 mr-2">
+        <a class="" data-hovercard-type="user" data-hovercard-url="/users/indirect/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/indirect">
+          <img class="d-block avatar-user" src="https://avatars3.githubusercontent.com/u/78?s=64&amp;v=4" width="32" height="32" alt="@indirect" />
+</a>      </li>
+      <li class="mb-2 mr-2">
+        <a class="" data-hovercard-type="user" data-hovercard-url="/users/segiddins/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/segiddins">
+          <img class="d-block avatar-user" src="https://avatars3.githubusercontent.com/u/1946610?s=64&amp;v=4" width="32" height="32" alt="@segiddins" />
+</a>      </li>
+      <li class="mb-2 mr-2">
+        <a class="" data-hovercard-type="user" data-hovercard-url="/users/bundlerbot/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/bundlerbot">
+          <img class="d-block avatar-user" src="https://avatars1.githubusercontent.com/u/13614622?s=64&amp;v=4" width="32" height="32" alt="@bundlerbot" />
+</a>      </li>
+      <li class="mb-2 mr-2">
+        <a class="" data-hovercard-type="user" data-hovercard-url="/users/deivid-rodriguez/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/deivid-rodriguez">
+          <img class="d-block avatar-user" src="https://avatars1.githubusercontent.com/u/2887858?s=64&amp;v=4" width="32" height="32" alt="@deivid-rodriguez" />
+</a>      </li>
+      <li class="mb-2 mr-2">
+        <a class="" data-hovercard-type="user" data-hovercard-url="/users/homu/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/homu">
+          <img class="d-block avatar-user" src="https://avatars0.githubusercontent.com/u/10212162?s=64&amp;v=4" width="32" height="32" alt="@homu" />
+</a>      </li>
+      <li class="mb-2 mr-2">
+        <a class="" data-hovercard-type="user" data-hovercard-url="/users/hone/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/hone">
+          <img class="d-block avatar-user" src="https://avatars1.githubusercontent.com/u/16457?s=64&amp;v=4" width="32" height="32" alt="@hone" />
+</a>      </li>
+      <li class="mb-2 mr-2">
+        <a class="" data-hovercard-type="user" data-hovercard-url="/users/josevalim/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/josevalim">
+          <img class="d-block avatar-user" src="https://avatars3.githubusercontent.com/u/9582?s=64&amp;v=4" width="32" height="32" alt="@josevalim" />
+</a>      </li>
+      <li class="mb-2 mr-2">
+        <a class="" data-hovercard-type="user" data-hovercard-url="/users/hsbt/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/hsbt">
+          <img class="d-block avatar-user" src="https://avatars1.githubusercontent.com/u/12301?s=64&amp;v=4" width="32" height="32" alt="@hsbt" />
+</a>      </li>
+      <li class="mb-2 mr-2">
+        <a class="" data-hovercard-type="user" data-hovercard-url="/users/wycats/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/wycats">
+          <img class="d-block avatar-user" src="https://avatars2.githubusercontent.com/u/4?s=64&amp;v=4" width="32" height="32" alt="@wycats" />
+</a>      </li>
+      <li class="mb-2 mr-2">
+        <a class="" data-hovercard-type="user" data-hovercard-url="/users/colby-swandale/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/colby-swandale">
+          <img class="d-block avatar-user" src="https://avatars0.githubusercontent.com/u/996377?s=64&amp;v=4" width="32" height="32" alt="@colby-swandale" />
+</a>      </li>
+      <li class="mb-2 mr-2">
+        <a class="" data-hovercard-type="user" data-hovercard-url="/users/asutoshpalai/hovercard" data-octo-click="hovercard-link-click" data-octo-dimensions="link_type:self" href="/asutoshpalai">
+          <img class="d-block avatar-user" src="https://avatars2.githubusercontent.com/u/8471682?s=64&amp;v=4" width="32" height="32" alt="@asutoshpalai" />
+</a>      </li>
+  </ul>
+
+
+  <div class="mt-3">
+    <a href="/rubygems/bundler/graphs/contributors" class="text-small">
+      + 665 contributors
+</a></div>
+            </div>
+          </div>
+          <div class="BorderGrid-row">
+            <div class="BorderGrid-cell">
+              <h2 class="h4 mb-3">Languages</h2>
+<div class="mb-2">
+  <span class="Progress ">
+    <span itemprop="keywords" aria-label="Ruby 100.0" style="background-color: #701516;width: 100.0%;" class="Progress-item "></span>
+</span></div>
+<ul class="list-style-none">
+    <li class="d-inline">
+      <a class="d-inline-flex flex-items-center flex-nowrap link-gray no-underline text-small mr-3" href="/rubygems/bundler/search?l=ruby"  data-ga-click="Repository, language stats search click, location:repo overview">
+        <svg class="octicon octicon-dot-fill mr-2" style="color:#701516;" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
+        <span class="text-gray-dark text-bold mr-1">Ruby</span>
+        <span>100.0%</span>
+      </a>
+    </li>
+</ul>
+
+            </div>
+          </div>
+      </div>
+
+</div></div>
+
+  </div>
+</div>
+
+    </main>
+  </div>
+
+  </div>
+
+        
+<div class="footer container-xl width-full p-responsive" role="contentinfo">
+    <div class="position-relative d-flex flex-row-reverse flex-lg-row flex-wrap flex-lg-nowrap flex-justify-center flex-lg-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+      <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+        <li class="mr-3 mr-lg-0">&copy; 2020 GitHub, Inc.</li>
+          <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+          <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+          <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to security, text:security" href="https://github.com/security">Security</a></li>
+          <li class="mr-3 mr-lg-0"><a href="https://githubstatus.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+          <li><a data-ga-click="Footer, go to help, text:help" href="https://docs.github.com">Help</a></li>
+      </ul>
+
+      <a aria-label="Homepage" title="GitHub" class="footer-octicon d-none d-lg-block mx-lg-4" href="https://github.com">
+        <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
+      <ul class="list-style-none d-flex flex-wrap col-12 col-lg-5 flex-justify-center flex-lg-justify-between mb-2 mb-lg-0">
+          <li class="mr-3 mr-lg-0"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+          <li class="mr-3 mr-lg-0"><a href="https://github.com/pricing" data-ga-click="Footer, go to Pricing, text:Pricing">Pricing</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://docs.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+        <li class="mr-3 mr-lg-0"><a href="https://services.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+          <li class="mr-3 mr-lg-0"><a href="https://github.blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+          <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+      </ul>
+    </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+
+    <script crossorigin="anonymous" async="async" integrity="sha512-bn/3rKJzBl2H64K38R8KaVcT26vKK7BJQC59lwYc+9fjlHzmy0fwh+hzBtsgTdhIi13dxjzNKWhdSN8WTM9qUw==" type="application/javascript" id="js-conditional-compat" data-src="https://github.githubassets.com/assets/compat-bootstrap-6e7ff7ac.js"></script>
+    <script crossorigin="anonymous" integrity="sha512-CxjaMepCmi+z0LTeztU2S8qGD25LyHD6j9t0RSPevy63trFWJVwUM6ipAVLgtpMBBgZ53wq8JPkSeQ6ruaZL2w==" type="application/javascript" src="https://github.githubassets.com/assets/environment-bootstrap-0b18da31.js"></script>
+    <script crossorigin="anonymous" async="async" integrity="sha512-uQnzvTsPtyUfA0k3VCLKlUs6/9mo4UFwcKJoBnxvk3uIHvl0dOShfB1KUq7OY/s1JuUiESbDVyBOAMS4kJrMQw==" type="application/javascript" src="https://github.githubassets.com/assets/vendor-b909f3bd.js"></script>
+    <script crossorigin="anonymous" async="async" integrity="sha512-11mf3U/MFDqwmUtfbIs/+XHfPyay+4afc1Fr6A0cAxWfKOuty8WV6/TV1JY1QpFVQgIgMoMf0qGrvRk3B8DDLQ==" type="application/javascript" src="https://github.githubassets.com/assets/frameworks-d7599fdd.js"></script>
+    
+    <script crossorigin="anonymous" async="async" integrity="sha512-VZRgdoEjJZR3U7ql2n7zWcfomq7bRNCbVx2VqlCQr38FofdZE1fQtWkTV7vFks1n9V//COTXaALnEz32UiApVw==" type="application/javascript" src="https://github.githubassets.com/assets/behaviors-bootstrap-55946076.js"></script>
+    
+      <script crossorigin="anonymous" async="async" integrity="sha512-WmLHdpvEzC/gyDbs4RKm2+pVCCIDmiJ4vPW5zdX6lQN1CxH/gYnRSi0gyMHMJv5Xv7zUbD6vOgwlAO6yNI87Vg==" type="application/javascript" data-module-id="./contributions-spider-graph.js" data-src="https://github.githubassets.com/assets/contributions-spider-graph-5a62c776.js"></script>
+      <script crossorigin="anonymous" async="async" integrity="sha512-2tVomjR7M73FMhb8dUvdjjzAErhNyLB9tL++hwpJeElQv494sCpS8OnWZL981ktAg30aqIypXD6TJjdvxcPEWQ==" type="application/javascript" data-module-id="./drag-drop.js" data-src="https://github.githubassets.com/assets/drag-drop-dad5689a.js"></script>
+      <script crossorigin="anonymous" async="async" integrity="sha512-Xukyu06wbcNg3pclhstoFKEilkRAX8ZPgymrKcu1y/uYSWknqjGDSsG8HCoOGUI+sg6RyyA06zWlAbeYvCLAVw==" type="application/javascript" data-module-id="./jump-to.js" data-src="https://github.githubassets.com/assets/jump-to-5ee932bb.js"></script>
+      <script crossorigin="anonymous" async="async" integrity="sha512-fc2sD+f9kolLYQWmhbjtebxjRxzdt4M+3E78XsdN60ioi/KL0trpAbRG0MdJkCQL0HtcVagxfWG4zA7lgup7IQ==" type="application/javascript" data-module-id="./profile-pins-element.js" data-src="https://github.githubassets.com/assets/profile-pins-element-7dcdac0f.js"></script>
+      <script crossorigin="anonymous" async="async" integrity="sha512-JXSmOrOQXof4xz7y+engxtqrugUopipC5LwEmsfxit4PlVe48UECBUCLuujjIADm1kjb2f/9/azX+qNspSy90w==" type="application/javascript" data-module-id="./randomColor.js" data-src="https://github.githubassets.com/assets/randomColor-2574a63a.js"></script>
+      <script crossorigin="anonymous" async="async" integrity="sha512-FOUgzyCYz3T1et4Stcl3MeKUX3mZkQcsMsTQDgBj6/CtW3HrwyGMaCeXGyhSjTGibphNptgZKgDNkvL+O+2uYw==" type="application/javascript" data-module-id="./sortable-behavior.js" data-src="https://github.githubassets.com/assets/sortable-behavior-14e520cf.js"></script>
+      <script crossorigin="anonymous" async="async" integrity="sha512-Sqqua2FOZToK8Mzg1e4jBubR6ZCFO0gL2JHjgpqafLawUXr69ffELu+IhApoX5uhWlxXxJ0ooE89ANBMtWiUNA==" type="application/javascript" data-module-id="./tweetsodium.js" data-src="https://github.githubassets.com/assets/tweetsodium-4aaaae6b.js"></script>
+      <script crossorigin="anonymous" async="async" integrity="sha512-PCRbqld90pgNROmOGIM1253h+3jU1dORyKR4bCSpyuAliZzKQaEv5t2R3IU+71iZzLGwGVYQVXBE2wdxxJwPDQ==" type="application/javascript" data-module-id="./user-status-submit.js" data-src="https://github.githubassets.com/assets/user-status-submit-3c245baa.js"></script>
+    
+    <script crossorigin="anonymous" async="async" integrity="sha512-ZEP82y/YKOpSkstZPYdLc/VNG/aOFLtZb476TLCGuXIXlN/ihaFdkgBh4jq0cWAqC4c/0FatEMPu9+8+nqw5Tw==" type="application/javascript" src="https://github.githubassets.com/assets/repositories-bootstrap-6443fcdb.js"></script>
+<script crossorigin="anonymous" async="async" integrity="sha512-aSCYXW1ucKS7CtW9391CYQ0xcSUf/QmK9LdLLAqxgYBkLDPeBAR/5gZhcHWJ10O7IVvR5wDiIGZ7yfDTrfBAgA==" type="application/javascript" src="https://github.githubassets.com/assets/github-bootstrap-6920985d.js"></script>
+  <div class="js-stale-session-flash flash flash-warn flash-banner" hidden
+    >
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path></svg>
+    <span class="js-stale-session-flash-signed-in" hidden>You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    <span class="js-stale-session-flash-signed-out" hidden>You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+  </div>
+  <template id="site-details-dialog">
+  <details class="details-reset details-overlay details-overlay-dark lh-default text-gray-dark hx_rsm" open>
+    <summary role="button" aria-label="Close dialog"></summary>
+    <details-dialog class="Box Box--overlay d-flex flex-column anim-fade-in fast hx_rsm-dialog hx_rsm-modal">
+      <button class="Box-btn-octicon m-0 btn-octicon position-absolute right-0 top-0" type="button" aria-label="Close dialog" data-close-dialog>
+        <svg class="octicon octicon-x" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3.72 3.72a.75.75 0 011.06 0L8 6.94l3.22-3.22a.75.75 0 111.06 1.06L9.06 8l3.22 3.22a.75.75 0 11-1.06 1.06L8 9.06l-3.22 3.22a.75.75 0 01-1.06-1.06L6.94 8 3.72 4.78a.75.75 0 010-1.06z"></path></svg>
+      </button>
+      <div class="octocat-spinner my-6 js-details-dialog-spinner"></div>
+    </details-dialog>
+  </details>
+</template>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;">
+  </div>
+</div>
+
+
+  </body>
+</html>
+
